@@ -1,0 +1,35 @@
+C:\Users\inuxb\OneDrive\Escritorio\Menu\Matemáticas v7.0\bin\Debug\net6.0-windows\Matemáticas v7.0.exe
+C:\Users\inuxb\OneDrive\Escritorio\Menu\Matemáticas v7.0\bin\Debug\net6.0-windows\Matemáticas v7.0.deps.json
+C:\Users\inuxb\OneDrive\Escritorio\Menu\Matemáticas v7.0\bin\Debug\net6.0-windows\Matemáticas v7.0.runtimeconfig.json
+C:\Users\inuxb\OneDrive\Escritorio\Menu\Matemáticas v7.0\bin\Debug\net6.0-windows\Matemáticas v7.0.dll
+C:\Users\inuxb\OneDrive\Escritorio\Menu\Matemáticas v7.0\bin\Debug\net6.0-windows\Matemáticas v7.0.pdb
+C:\Users\inuxb\OneDrive\Escritorio\Menu\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.csproj.AssemblyReference.cache
+C:\Users\inuxb\OneDrive\Escritorio\Menu\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas_v7._0.Form1.resources
+C:\Users\inuxb\OneDrive\Escritorio\Menu\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.csproj.GenerateResource.cache
+C:\Users\inuxb\OneDrive\Escritorio\Menu\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\inuxb\OneDrive\Escritorio\Menu\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.AssemblyInfoInputs.cache
+C:\Users\inuxb\OneDrive\Escritorio\Menu\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.AssemblyInfo.cs
+C:\Users\inuxb\OneDrive\Escritorio\Menu\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.csproj.CoreCompileInputs.cache
+C:\Users\inuxb\OneDrive\Escritorio\Menu\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.dll
+C:\Users\inuxb\OneDrive\Escritorio\Menu\Matemáticas v7.0\obj\Debug\net6.0-windows\refint\Matemáticas v7.0.dll
+C:\Users\inuxb\OneDrive\Escritorio\Menu\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.pdb
+C:\Users\inuxb\OneDrive\Escritorio\Menu\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.genruntimeconfig.cache
+C:\Users\inuxb\OneDrive\Escritorio\Menu\Matemáticas v7.0\obj\Debug\net6.0-windows\ref\Matemáticas v7.0.dll
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\bin\Debug\net6.0-windows\Matemáticas v7.0.exe
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\bin\Debug\net6.0-windows\Matemáticas v7.0.deps.json
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\bin\Debug\net6.0-windows\Matemáticas v7.0.runtimeconfig.json
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\bin\Debug\net6.0-windows\Matemáticas v7.0.dll
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\bin\Debug\net6.0-windows\Matemáticas v7.0.pdb
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.csproj.AssemblyReference.cache
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas_v7._0.Form1.resources
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas_v7._0.Properties.Resources.resources
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.csproj.GenerateResource.cache
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.AssemblyInfoInputs.cache
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.AssemblyInfo.cs
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.csproj.CoreCompileInputs.cache
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.dll
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\obj\Debug\net6.0-windows\refint\Matemáticas v7.0.dll
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.pdb
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\obj\Debug\net6.0-windows\Matemáticas v7.0.genruntimeconfig.cache
+C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0\Matemáticas v7.0\obj\Debug\net6.0-windows\ref\Matemáticas v7.0.dll
