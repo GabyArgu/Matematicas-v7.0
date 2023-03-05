@@ -177,7 +177,7 @@ namespace Matemáticas_v7._0
             //Se programa la ecuación
 
             //declaración de variables de tipo Double
-            double a, b, c,deter, x1, x2, deterc1,deterc2;
+            double a, b, c, deter, x1, x2, deterc1, deterc2;
             //obtenemos las variables a, b y c de losTextBox txta,txtb y txtc
             //para poder usarlas las convertimos a tipo Double
             a = Convert.ToDouble(txtA.Text);
@@ -185,17 +185,17 @@ namespace Matemáticas_v7._0
             c = Convert.ToDouble(txtC.Text);
             //realizamos la operación de la fórmulageneral, para obtener los dos valores de x
             //Math.sqrt determina la raíz cuadrada
-            deter= (Math.Pow(b, 2)) - 4 * a * c;
+            deter = (Math.Pow(b, 2)) - 4 * a * c;
 
             if (deter < 0)
             {
                 //Al no tener solución en los reales, se resolvera como numero imaginario
                 deter = -deter;
-                deterc1 = -b/ (2 * a);
-                deterc2 = Math.Sqrt(deter)/(2 * a);
+                deterc1 = -b / (2 * a);
+                deterc2 = Math.Sqrt(deter) / (2 * a);
 
                 //Se imprimen los valores tanto positivo como negativo concatenando el simbolo de imaginario i
-                txtX1.Text = Math.Round(deterc1, 2).ToString()+ " + " + Math.Round(deterc2, 2).ToString() + " i";
+                txtX1.Text = Math.Round(deterc1, 2).ToString() + " + " + Math.Round(deterc2, 2).ToString() + " i";
                 txtX2.Text = Math.Round(deterc1, 2).ToString() + " - " + Math.Round(deterc2, 2).ToString() + " i";
             }
             else if (a == 0)
@@ -286,7 +286,7 @@ namespace Matemáticas_v7._0
         private void btnCalcular_MouseLeave(object sender, EventArgs e)
         {
             //Mediante el evento Leave se cambia la imagen de la tiza para cuando el mouse este fuera del btn
-            btnCalcular.Image =  global::Matemáticas_v7._0.Properties.Resources.tizas;
+            btnCalcular.Image = global::Matemáticas_v7._0.Properties.Resources.tizas;
         }
 
         private void btnLimpiar_MouseHover(object sender, EventArgs e)
@@ -417,7 +417,52 @@ namespace Matemáticas_v7._0
         //Fin de Programación del primer programa-----------------------------------------------------------------------------
 
 
+        //Inicio de Programación del tercer programa-----------------------------------------------------------------------------
+        private void btnLimpiar3_MouseHover(object sender, EventArgs e)
+        {
+            //Mediante el evento hover se cambia la imagen del borrador
+            btnLimpiar3.Image = global::Matemáticas_v7._0.Properties.Resources.tiza2;
+        }
+
+        private void btnLimpiar3_MouseLeave(object sender, EventArgs e)
+        {
+            btnLimpiar3.Image = global::Matemáticas_v7._0.Properties.Resources.tizas;
+        }
+
+        private void btnLimpiar3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCalcular3_MouseHover(object sender, EventArgs e)
+        {
+            //Mediante el evento hover se cambia la imagen de la tiza
+            btnCalcular3.Image = global::Matemáticas_v7._0.Properties.Resources.borrador2;
+        }
+
+        private void btnCalcular3_MouseLeave(object sender, EventArgs e)
+        {
+            //Mediante el evento Leave se cambia la imagen de la tiza para cuando el mouse este fuera del btn
+            btnCalcular3.Image = global::Matemáticas_v7._0.Properties.Resources.borrador;
+        }
+
+        private void home3_Click(object sender, EventArgs e)
+        {
+            // Se muestra el panel 0 de tabControl
+            tabControl1.SelectedIndex = 0;
+
+            // Poner en negritar el boton seleccionado
 
 
+            //Poner en regular a todos los demas boton
+            btn1.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn2.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn3.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn4.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn5.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn6.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn7.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn8.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+        }
     }
 }
