@@ -358,7 +358,7 @@ namespace Matemáticas_v7._0
 
         }
 
-
+        //Fin de Programación del primero programa-----------------------------------------------------------------------------
 
         //Inicio de Programación del segundo programa-------------------------------------------------------------------------
 
@@ -414,7 +414,7 @@ namespace Matemáticas_v7._0
             btn8.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
         }
 
-        //Fin de Programación del primer programa-----------------------------------------------------------------------------
+        //Fin de Programación del segundo programa-----------------------------------------------------------------------------
 
 
         //Inicio de Programación del tercer programa-----------------------------------------------------------------------------
@@ -431,7 +431,66 @@ namespace Matemáticas_v7._0
 
         private void btnLimpiar3_Click(object sender, EventArgs e)
         {
+            //Validacion de no dejar espacios
+            if (txtboxA.Text == "")
+            {
+                MessageBox.Show(" Favor ingresar el valor de A ", "Error");
+                txtboxA.Focus();
+                return;
+            }
+            if (txtboxB.Text == "")
+            {
+                MessageBox.Show(" Favor ingresar el valor de B ", "Error");
+                txtboxB.Focus();
+                return;
+            }
+            if (txtboxC.Text == "")
+            {
+                MessageBox.Show(" Favor ingresar el valor de C ", "Error");
+                txtboxC.Focus();
+                return;
+            }
+            if (txtboxD.Text == "")
+            {
+                MessageBox.Show(" Favor ingresar el valor de D ", "Error");
+                txtboxD.Focus();
+                return;
+            }
+            if (txtboxE.Text == "")
+            {
+                MessageBox.Show(" Favor ingresar el valor de E ", "Error");
+                txtboxE.Focus();
+                return;
+            }
+            if (txtboxF.Text == "")
+            {
+                MessageBox.Show(" Favor ingresar el valor de F ", "Error");
+                txtboxF.Focus();
+                return;
+            }
 
+            //Se programa la ecuación
+
+            // Declaracion de variables
+            double da, db, dc, dd, de, df, deterg, deterx, detery, rx, ry;
+            // Entrada de datos
+            da = Double.Parse(txtboxA.Text);
+            db = Double.Parse(txtboxB.Text);
+            dc = Double.Parse(txtboxC.Text);
+            dd = Double.Parse(txtboxD.Text);
+            de = Double.Parse(txtboxE.Text);
+            df = Double.Parse(txtboxF.Text);
+            Console.Write("\n");
+            // Proceso de los datos
+            deterg = (da * dd) - (db * dc);
+            deterx = (de * dd) - (db * df);
+            detery = (da * df) - (de * dc);
+            rx = deterx / deterg;
+            ry = detery / deterg;
+
+            // Salida de los datos
+            txtboxX.Text = (Math.Round(rx, 2)).ToString();
+            txtboxY.Text = (Math.Round(ry, 2)).ToString();
         }
 
         private void btnCalcular3_MouseHover(object sender, EventArgs e)
@@ -444,6 +503,41 @@ namespace Matemáticas_v7._0
         {
             //Mediante el evento Leave se cambia la imagen de la tiza para cuando el mouse este fuera del btn
             btnCalcular3.Image = global::Matemáticas_v7._0.Properties.Resources.borrador;
+        }
+
+        private void btnCalcular3_Click(object sender, EventArgs e)
+        {
+            //Se limpian todos los campos
+            txtboxA.Text = "";
+            txtboxB.Text = "";
+            txtboxC.Text = "";
+            txtboxD.Text = "";
+            txtboxE.Text = "";
+            txtboxF.Text = "";
+            txtboxX.Text = "";
+            txtboxY.Text = "";
+            txtA.Focus();
+        }
+
+        private void txtboxDatos_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar >= 32 && e.KeyChar <= 44) || (e.KeyChar >= 58 && e.KeyChar <= 255))
+            {
+                //Validacion de solo teclas numericas
+                MessageBox.Show("Solo se aceptan valores numericos", "Alerta");
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtboxResultados_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar >= 0 && e.KeyChar <= 255)
+            {
+                //Validacion para que no escriban nada
+                e.Handled = true;
+                return;
+            }
         }
 
         private void home3_Click(object sender, EventArgs e)
@@ -464,5 +558,10 @@ namespace Matemáticas_v7._0
             btn7.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
             btn8.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
         }
+
+        //Fin de Programación del segundo programa-----------------------------------------------------------------------------
+
+        //Inicio de Programación del tercer programa-----------------------------------------------------------------------------
+
     }
 }
