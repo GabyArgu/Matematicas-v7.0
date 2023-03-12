@@ -29,623 +29,928 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.btn1 = new System.Windows.Forms.Button();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.home = new System.Windows.Forms.Panel();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.btnLimpiar = new System.Windows.Forms.Button();
-            this.home1 = new System.Windows.Forms.Panel();
-            this.txtX2 = new System.Windows.Forms.TextBox();
-            this.txtX1 = new System.Windows.Forms.TextBox();
-            this.btnCalcular = new System.Windows.Forms.Button();
-            this.txtC = new System.Windows.Forms.TextBox();
-            this.txtB = new System.Windows.Forms.TextBox();
-            this.txtA = new System.Windows.Forms.TextBox();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.btnCalcular2 = new System.Windows.Forms.Button();
-            this.btnLimpiar2 = new System.Windows.Forms.Button();
-            this.home2 = new System.Windows.Forms.Panel();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.home9 = new System.Windows.Forms.Panel();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btn8 = new System.Windows.Forms.Button();
-            this.btn7 = new System.Windows.Forms.Button();
-            this.btn6 = new System.Windows.Forms.Button();
-            this.btn5 = new System.Windows.Forms.Button();
-            this.btn4 = new System.Windows.Forms.Button();
-            this.btn3 = new System.Windows.Forms.Button();
-            this.btn2 = new System.Windows.Forms.Button();
-            this.btnpato = new System.Windows.Forms.PictureBox();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.tabPage9.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnpato)).BeginInit();
-            this.SuspendLayout();
+            btn1 = new Button();
+            tabControl1 = new TabControl();
+            tabPage1 = new TabPage();
+            home = new Panel();
+            tabPage2 = new TabPage();
+            btnLimpiar = new Button();
+            home1 = new Panel();
+            txtX2 = new TextBox();
+            txtX1 = new TextBox();
+            btnCalcular = new Button();
+            txtC = new TextBox();
+            txtB = new TextBox();
+            txtA = new TextBox();
+            tabPage3 = new TabPage();
+            btnCalcular2 = new Button();
+            btnLimpiar2 = new Button();
+            home2 = new Panel();
+            tabPage4 = new TabPage();
+            txtboxY = new TextBox();
+            txtboxX = new TextBox();
+            home3 = new Panel();
+            txtboxF = new TextBox();
+            txtboxD = new TextBox();
+            txtboxB = new TextBox();
+            txtboxE = new TextBox();
+            txtboxC = new TextBox();
+            txtboxA = new TextBox();
+            btnCalcular3 = new Button();
+            btnLimpiar3 = new Button();
+            tabPage5 = new TabPage();
+            tabPage6 = new TabPage();
+            home6 = new Panel();
+            btnLimpiar5 = new Button();
+            btnCalcular5 = new Button();
+            txtboxAbogado = new TextBox();
+            txtboxHijo2 = new TextBox();
+            txtboxHijo3 = new TextBox();
+            txtboxHijo1 = new TextBox();
+            txtboxHerencia = new TextBox();
+            tabPage7 = new TabPage();
+            tabPage8 = new TabPage();
+            tabPage9 = new TabPage();
+            home9 = new Panel();
+            tabPage10 = new TabPage();
+            button1 = new Button();
+            panel2 = new Panel();
+            btn8 = new Button();
+            btn7 = new Button();
+            btn6 = new Button();
+            btn5 = new Button();
+            btn4 = new Button();
+            btn3 = new Button();
+            btn2 = new Button();
+            btnpato = new PictureBox();
+            tabControl1.SuspendLayout();
+            tabPage1.SuspendLayout();
+            tabPage2.SuspendLayout();
+            tabPage3.SuspendLayout();
+            tabPage4.SuspendLayout();
+            tabPage6.SuspendLayout();
+            tabPage9.SuspendLayout();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)btnpato).BeginInit();
+            SuspendLayout();
             // 
             // btn1
             // 
-            this.btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btn1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btn1.FlatAppearance.BorderSize = 0;
-            this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1.Font = new System.Drawing.Font("KG Ten Thousand Reasons", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn1.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn1.Location = new System.Drawing.Point(65, 72);
-            this.btn1.Margin = new System.Windows.Forms.Padding(0);
-            this.btn1.MaximumSize = new System.Drawing.Size(251, 46);
-            this.btn1.MinimumSize = new System.Drawing.Size(251, 46);
-            this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(251, 46);
-            this.btn1.TabIndex = 0;
-            this.btn1.Text = "Formula General";
-            this.btn1.UseVisualStyleBackColor = false;
-            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            btn1.BackColor = Color.FromArgb(75, 101, 84);
+            btn1.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btn1.FlatAppearance.BorderSize = 0;
+            btn1.FlatStyle = FlatStyle.Flat;
+            btn1.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btn1.ForeColor = SystemColors.Control;
+            btn1.Location = new Point(65, 72);
+            btn1.Margin = new Padding(0);
+            btn1.MaximumSize = new Size(251, 46);
+            btn1.MinimumSize = new Size(251, 46);
+            btn1.Name = "btn1";
+            btn1.Size = new Size(251, 46);
+            btn1.TabIndex = 0;
+            btn1.Text = "Formula General";
+            btn1.UseVisualStyleBackColor = false;
+            btn1.Click += btn1_Click;
             // 
             // tabControl1
             // 
-            this.tabControl1.Alignment = System.Windows.Forms.TabAlignment.Left;
-            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Controls.Add(this.tabPage6);
-            this.tabControl1.Controls.Add(this.tabPage7);
-            this.tabControl1.Controls.Add(this.tabPage8);
-            this.tabControl1.Controls.Add(this.tabPage9);
-            this.tabControl1.Controls.Add(this.tabPage10);
-            this.tabControl1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.tabControl1.ItemSize = new System.Drawing.Size(12, 12);
-            this.tabControl1.Location = new System.Drawing.Point(350, -5);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(0);
-            this.tabControl1.MaximumSize = new System.Drawing.Size(950, 832);
-            this.tabControl1.MinimumSize = new System.Drawing.Size(950, 832);
-            this.tabControl1.Multiline = true;
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.Padding = new System.Drawing.Point(0, 0);
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(950, 832);
-            this.tabControl1.TabIndex = 10;
+            tabControl1.Alignment = TabAlignment.Left;
+            tabControl1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            tabControl1.Controls.Add(tabPage1);
+            tabControl1.Controls.Add(tabPage2);
+            tabControl1.Controls.Add(tabPage3);
+            tabControl1.Controls.Add(tabPage4);
+            tabControl1.Controls.Add(tabPage5);
+            tabControl1.Controls.Add(tabPage6);
+            tabControl1.Controls.Add(tabPage7);
+            tabControl1.Controls.Add(tabPage8);
+            tabControl1.Controls.Add(tabPage9);
+            tabControl1.Controls.Add(tabPage10);
+            tabControl1.ImeMode = ImeMode.NoControl;
+            tabControl1.ItemSize = new Size(12, 12);
+            tabControl1.Location = new Point(350, -5);
+            tabControl1.Margin = new Padding(0);
+            tabControl1.MaximumSize = new Size(950, 832);
+            tabControl1.MinimumSize = new Size(950, 832);
+            tabControl1.Multiline = true;
+            tabControl1.Name = "tabControl1";
+            tabControl1.Padding = new Point(0, 0);
+            tabControl1.SelectedIndex = 0;
+            tabControl1.Size = new Size(950, 832);
+            tabControl1.TabIndex = 10;
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.Transparent;
-            this.tabPage1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage1.BackgroundImage")));
-            this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tabPage1.Controls.Add(this.home);
-            this.tabPage1.Location = new System.Drawing.Point(16, 4);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(0);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Size = new System.Drawing.Size(930, 824);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "1";
+            tabPage1.BackColor = Color.Transparent;
+            tabPage1.BackgroundImage = (Image)resources.GetObject("tabPage1.BackgroundImage");
+            tabPage1.BackgroundImageLayout = ImageLayout.Stretch;
+            tabPage1.Controls.Add(home);
+            tabPage1.Location = new Point(16, 4);
+            tabPage1.Margin = new Padding(0);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Size = new Size(930, 824);
+            tabPage1.TabIndex = 0;
+            tabPage1.Text = "1";
             // 
             // home
             // 
-            this.home.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("home.BackgroundImage")));
-            this.home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.home.Location = new System.Drawing.Point(883, 13);
-            this.home.MaximumSize = new System.Drawing.Size(32, 32);
-            this.home.MinimumSize = new System.Drawing.Size(32, 32);
-            this.home.Name = "home";
-            this.home.Size = new System.Drawing.Size(32, 32);
-            this.home.TabIndex = 0;
-            this.home.Click += new System.EventHandler(this.home_Click);
+            home.BackgroundImage = (Image)resources.GetObject("home.BackgroundImage");
+            home.BackgroundImageLayout = ImageLayout.Stretch;
+            home.Location = new Point(883, 13);
+            home.MaximumSize = new Size(32, 32);
+            home.MinimumSize = new Size(32, 32);
+            home.Name = "home";
+            home.Size = new Size(32, 32);
+            home.TabIndex = 0;
+            home.Click += home_Click;
             // 
             // tabPage2
             // 
-            this.tabPage2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage2.BackgroundImage")));
-            this.tabPage2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tabPage2.Controls.Add(this.btnLimpiar);
-            this.tabPage2.Controls.Add(this.home1);
-            this.tabPage2.Controls.Add(this.txtX2);
-            this.tabPage2.Controls.Add(this.txtX1);
-            this.tabPage2.Controls.Add(this.btnCalcular);
-            this.tabPage2.Controls.Add(this.txtC);
-            this.tabPage2.Controls.Add(this.txtB);
-            this.tabPage2.Controls.Add(this.txtA);
-            this.tabPage2.Location = new System.Drawing.Point(16, 4);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(0);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Size = new System.Drawing.Size(930, 824);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "2";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            tabPage2.BackgroundImage = (Image)resources.GetObject("tabPage2.BackgroundImage");
+            tabPage2.BackgroundImageLayout = ImageLayout.Stretch;
+            tabPage2.Controls.Add(btnLimpiar);
+            tabPage2.Controls.Add(home1);
+            tabPage2.Controls.Add(txtX2);
+            tabPage2.Controls.Add(txtX1);
+            tabPage2.Controls.Add(btnCalcular);
+            tabPage2.Controls.Add(txtC);
+            tabPage2.Controls.Add(txtB);
+            tabPage2.Controls.Add(txtA);
+            tabPage2.Location = new Point(16, 4);
+            tabPage2.Margin = new Padding(0);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Size = new Size(930, 824);
+            tabPage2.TabIndex = 1;
+            tabPage2.Text = "2";
+            tabPage2.UseVisualStyleBackColor = true;
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btnLimpiar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnLimpiar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btnLimpiar.FlatAppearance.BorderSize = 0;
-            this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLimpiar.Font = new System.Drawing.Font("KG Ten Thousand Reasons", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnLimpiar.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnLimpiar.Image = ((System.Drawing.Image)(resources.GetObject("btnLimpiar.Image")));
-            this.btnLimpiar.Location = new System.Drawing.Point(667, 501);
-            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(0);
-            this.btnLimpiar.MaximumSize = new System.Drawing.Size(123, 69);
-            this.btnLimpiar.MinimumSize = new System.Drawing.Size(123, 69);
-            this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(123, 69);
-            this.btnLimpiar.TabIndex = 10;
-            this.btnLimpiar.UseVisualStyleBackColor = false;
-            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
-            this.btnLimpiar.MouseLeave += new System.EventHandler(this.btnLimpiar_MouseLeave);
-            this.btnLimpiar.MouseHover += new System.EventHandler(this.btnLimpiar_MouseHover);
+            btnLimpiar.BackColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar.BackgroundImageLayout = ImageLayout.Center;
+            btnLimpiar.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar.FlatAppearance.BorderSize = 0;
+            btnLimpiar.FlatStyle = FlatStyle.Flat;
+            btnLimpiar.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnLimpiar.ForeColor = SystemColors.Control;
+            btnLimpiar.Image = (Image)resources.GetObject("btnLimpiar.Image");
+            btnLimpiar.Location = new Point(667, 501);
+            btnLimpiar.Margin = new Padding(0);
+            btnLimpiar.MaximumSize = new Size(123, 69);
+            btnLimpiar.MinimumSize = new Size(123, 69);
+            btnLimpiar.Name = "btnLimpiar";
+            btnLimpiar.Size = new Size(123, 69);
+            btnLimpiar.TabIndex = 10;
+            btnLimpiar.UseVisualStyleBackColor = false;
+            btnLimpiar.Click += btnLimpiar_Click;
+            btnLimpiar.MouseLeave += btnLimpiar_MouseLeave;
+            btnLimpiar.MouseHover += btnLimpiar_MouseHover;
             // 
             // home1
             // 
-            this.home1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("home1.BackgroundImage")));
-            this.home1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.home1.Location = new System.Drawing.Point(883, 13);
-            this.home1.MaximumSize = new System.Drawing.Size(32, 32);
-            this.home1.MinimumSize = new System.Drawing.Size(32, 32);
-            this.home1.Name = "home1";
-            this.home1.Size = new System.Drawing.Size(32, 32);
-            this.home1.TabIndex = 14;
-            this.home1.Click += new System.EventHandler(this.panel4_Click);
+            home1.BackgroundImage = (Image)resources.GetObject("home1.BackgroundImage");
+            home1.BackgroundImageLayout = ImageLayout.Stretch;
+            home1.Location = new Point(883, 13);
+            home1.MaximumSize = new Size(32, 32);
+            home1.MinimumSize = new Size(32, 32);
+            home1.Name = "home1";
+            home1.Size = new Size(32, 32);
+            home1.TabIndex = 14;
+            home1.Click += panel4_Click;
             // 
             // txtX2
             // 
-            this.txtX2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.txtX2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtX2.Font = new System.Drawing.Font("KG Ten Thousand Reasons", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtX2.ForeColor = System.Drawing.Color.LightCyan;
-            this.txtX2.Location = new System.Drawing.Point(218, 457);
-            this.txtX2.Name = "txtX2";
-            this.txtX2.Size = new System.Drawing.Size(519, 45);
-            this.txtX2.TabIndex = 12;
-            this.txtX2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtX2_KeyPress);
+            txtX2.BackColor = Color.FromArgb(75, 101, 84);
+            txtX2.BorderStyle = BorderStyle.None;
+            txtX2.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtX2.ForeColor = Color.LightCyan;
+            txtX2.Location = new Point(218, 457);
+            txtX2.Name = "txtX2";
+            txtX2.Size = new Size(519, 45);
+            txtX2.TabIndex = 12;
+            txtX2.KeyPress += txtX2_KeyPress;
             // 
             // txtX1
             // 
-            this.txtX1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.txtX1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtX1.Font = new System.Drawing.Font("KG Ten Thousand Reasons", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtX1.ForeColor = System.Drawing.Color.LightCyan;
-            this.txtX1.Location = new System.Drawing.Point(218, 388);
-            this.txtX1.Name = "txtX1";
-            this.txtX1.Size = new System.Drawing.Size(519, 45);
-            this.txtX1.TabIndex = 11;
-            this.txtX1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtX1_KeyPress);
+            txtX1.BackColor = Color.FromArgb(75, 101, 84);
+            txtX1.BorderStyle = BorderStyle.None;
+            txtX1.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtX1.ForeColor = Color.LightCyan;
+            txtX1.Location = new Point(218, 388);
+            txtX1.Name = "txtX1";
+            txtX1.Size = new Size(519, 45);
+            txtX1.TabIndex = 11;
+            txtX1.KeyPress += txtX1_KeyPress;
             // 
             // btnCalcular
             // 
-            this.btnCalcular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btnCalcular.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnCalcular.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btnCalcular.FlatAppearance.BorderSize = 0;
-            this.btnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCalcular.Font = new System.Drawing.Font("KG Ten Thousand Reasons", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCalcular.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnCalcular.Image = ((System.Drawing.Image)(resources.GetObject("btnCalcular.Image")));
-            this.btnCalcular.Location = new System.Drawing.Point(570, 537);
-            this.btnCalcular.Margin = new System.Windows.Forms.Padding(0);
-            this.btnCalcular.MaximumSize = new System.Drawing.Size(79, 36);
-            this.btnCalcular.MinimumSize = new System.Drawing.Size(79, 36);
-            this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(79, 36);
-            this.btnCalcular.TabIndex = 9;
-            this.btnCalcular.UseVisualStyleBackColor = false;
-            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
-            this.btnCalcular.MouseLeave += new System.EventHandler(this.btnCalcular_MouseLeave);
-            this.btnCalcular.MouseHover += new System.EventHandler(this.btnCalcular_MouseHover);
+            btnCalcular.BackColor = Color.FromArgb(75, 101, 84);
+            btnCalcular.BackgroundImageLayout = ImageLayout.Center;
+            btnCalcular.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnCalcular.FlatAppearance.BorderSize = 0;
+            btnCalcular.FlatStyle = FlatStyle.Flat;
+            btnCalcular.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCalcular.ForeColor = SystemColors.Control;
+            btnCalcular.Image = (Image)resources.GetObject("btnCalcular.Image");
+            btnCalcular.Location = new Point(570, 537);
+            btnCalcular.Margin = new Padding(0);
+            btnCalcular.MaximumSize = new Size(79, 36);
+            btnCalcular.MinimumSize = new Size(79, 36);
+            btnCalcular.Name = "btnCalcular";
+            btnCalcular.Size = new Size(79, 36);
+            btnCalcular.TabIndex = 9;
+            btnCalcular.UseVisualStyleBackColor = false;
+            btnCalcular.Click += btnCalcular_Click;
+            btnCalcular.MouseLeave += btnCalcular_MouseLeave;
+            btnCalcular.MouseHover += btnCalcular_MouseHover;
             // 
             // txtC
             // 
-            this.txtC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.txtC.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtC.Font = new System.Drawing.Font("KG Ten Thousand Reasons", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtC.ForeColor = System.Drawing.Color.LightCyan;
-            this.txtC.Location = new System.Drawing.Point(205, 275);
-            this.txtC.Name = "txtC";
-            this.txtC.Size = new System.Drawing.Size(139, 45);
-            this.txtC.TabIndex = 2;
-            this.txtC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtC_KeyPress);
+            txtC.BackColor = Color.FromArgb(75, 101, 84);
+            txtC.BorderStyle = BorderStyle.None;
+            txtC.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtC.ForeColor = Color.LightCyan;
+            txtC.Location = new Point(205, 275);
+            txtC.Name = "txtC";
+            txtC.Size = new Size(139, 45);
+            txtC.TabIndex = 2;
+            txtC.KeyPress += txtC_KeyPress;
             // 
             // txtB
             // 
-            this.txtB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.txtB.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtB.Font = new System.Drawing.Font("KG Ten Thousand Reasons", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtB.ForeColor = System.Drawing.Color.LightCyan;
-            this.txtB.Location = new System.Drawing.Point(205, 222);
-            this.txtB.Name = "txtB";
-            this.txtB.Size = new System.Drawing.Size(139, 45);
-            this.txtB.TabIndex = 1;
-            this.txtB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtB_KeyPress);
+            txtB.BackColor = Color.FromArgb(75, 101, 84);
+            txtB.BorderStyle = BorderStyle.None;
+            txtB.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtB.ForeColor = Color.LightCyan;
+            txtB.Location = new Point(205, 222);
+            txtB.Name = "txtB";
+            txtB.Size = new Size(139, 45);
+            txtB.TabIndex = 1;
+            txtB.KeyPress += txtB_KeyPress;
             // 
             // txtA
             // 
-            this.txtA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.txtA.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtA.Font = new System.Drawing.Font("KG Ten Thousand Reasons", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtA.ForeColor = System.Drawing.Color.LightCyan;
-            this.txtA.Location = new System.Drawing.Point(205, 169);
-            this.txtA.Name = "txtA";
-            this.txtA.Size = new System.Drawing.Size(139, 45);
-            this.txtA.TabIndex = 0;
-            this.txtA.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtA_KeyPress);
+            txtA.BackColor = Color.FromArgb(75, 101, 84);
+            txtA.BorderStyle = BorderStyle.None;
+            txtA.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtA.ForeColor = Color.LightCyan;
+            txtA.Location = new Point(205, 169);
+            txtA.Name = "txtA";
+            txtA.Size = new Size(139, 45);
+            txtA.TabIndex = 0;
+            txtA.KeyPress += txtA_KeyPress;
             // 
             // tabPage3
             // 
-            this.tabPage3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage3.BackgroundImage")));
-            this.tabPage3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tabPage3.Controls.Add(this.btnCalcular2);
-            this.tabPage3.Controls.Add(this.btnLimpiar2);
-            this.tabPage3.Controls.Add(this.home2);
-            this.tabPage3.Location = new System.Drawing.Point(16, 4);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(0);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(930, 824);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "3";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            tabPage3.BackgroundImage = (Image)resources.GetObject("tabPage3.BackgroundImage");
+            tabPage3.BackgroundImageLayout = ImageLayout.Stretch;
+            tabPage3.Controls.Add(btnCalcular2);
+            tabPage3.Controls.Add(btnLimpiar2);
+            tabPage3.Controls.Add(home2);
+            tabPage3.Location = new Point(16, 4);
+            tabPage3.Margin = new Padding(0);
+            tabPage3.Name = "tabPage3";
+            tabPage3.Size = new Size(930, 824);
+            tabPage3.TabIndex = 2;
+            tabPage3.Text = "3";
+            tabPage3.UseVisualStyleBackColor = true;
             // 
             // btnCalcular2
             // 
-            this.btnCalcular2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btnCalcular2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnCalcular2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btnCalcular2.FlatAppearance.BorderSize = 0;
-            this.btnCalcular2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCalcular2.Font = new System.Drawing.Font("KG Ten Thousand Reasons", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCalcular2.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnCalcular2.Image = global::Matemáticas_v7._0.Properties.Resources.borrador;
-            this.btnCalcular2.Location = new System.Drawing.Point(673, 508);
-            this.btnCalcular2.Margin = new System.Windows.Forms.Padding(0);
-            this.btnCalcular2.MaximumSize = new System.Drawing.Size(123, 69);
-            this.btnCalcular2.MinimumSize = new System.Drawing.Size(123, 69);
-            this.btnCalcular2.Name = "btnCalcular2";
-            this.btnCalcular2.Size = new System.Drawing.Size(123, 69);
-            this.btnCalcular2.TabIndex = 17;
-            this.btnCalcular2.UseVisualStyleBackColor = false;
-            this.btnCalcular2.Click += new System.EventHandler(this.btnCalcular2_Click);
-            this.btnCalcular2.MouseLeave += new System.EventHandler(this.btnCalcular2_MouseLeave);
-            this.btnCalcular2.MouseHover += new System.EventHandler(this.btnCalcular2_MouseHover);
+            btnCalcular2.BackColor = Color.FromArgb(75, 101, 84);
+            btnCalcular2.BackgroundImageLayout = ImageLayout.Center;
+            btnCalcular2.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnCalcular2.FlatAppearance.BorderSize = 0;
+            btnCalcular2.FlatStyle = FlatStyle.Flat;
+            btnCalcular2.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCalcular2.ForeColor = SystemColors.Control;
+            btnCalcular2.Image = Properties.Resources.borrador;
+            btnCalcular2.Location = new Point(673, 508);
+            btnCalcular2.Margin = new Padding(0);
+            btnCalcular2.MaximumSize = new Size(123, 69);
+            btnCalcular2.MinimumSize = new Size(123, 69);
+            btnCalcular2.Name = "btnCalcular2";
+            btnCalcular2.Size = new Size(123, 69);
+            btnCalcular2.TabIndex = 17;
+            btnCalcular2.UseVisualStyleBackColor = false;
+            btnCalcular2.Click += btnCalcular2_Click;
+            btnCalcular2.MouseLeave += btnCalcular2_MouseLeave;
+            btnCalcular2.MouseHover += btnCalcular2_MouseHover;
             // 
             // btnLimpiar2
             // 
-            this.btnLimpiar2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btnLimpiar2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnLimpiar2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btnLimpiar2.FlatAppearance.BorderSize = 0;
-            this.btnLimpiar2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLimpiar2.Font = new System.Drawing.Font("KG Ten Thousand Reasons", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnLimpiar2.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnLimpiar2.Image = global::Matemáticas_v7._0.Properties.Resources.tizas;
-            this.btnLimpiar2.Location = new System.Drawing.Point(576, 544);
-            this.btnLimpiar2.Margin = new System.Windows.Forms.Padding(0);
-            this.btnLimpiar2.MaximumSize = new System.Drawing.Size(79, 36);
-            this.btnLimpiar2.MinimumSize = new System.Drawing.Size(79, 36);
-            this.btnLimpiar2.Name = "btnLimpiar2";
-            this.btnLimpiar2.Size = new System.Drawing.Size(79, 36);
-            this.btnLimpiar2.TabIndex = 16;
-            this.btnLimpiar2.UseVisualStyleBackColor = false;
-            this.btnLimpiar2.Click += new System.EventHandler(this.btnLimpiar2_Click);
-            this.btnLimpiar2.MouseLeave += new System.EventHandler(this.btnLimpiar2_MouseLeave);
-            this.btnLimpiar2.MouseHover += new System.EventHandler(this.btnLimpiar2_MouseHover);
+            btnLimpiar2.BackColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar2.BackgroundImageLayout = ImageLayout.Center;
+            btnLimpiar2.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar2.FlatAppearance.BorderSize = 0;
+            btnLimpiar2.FlatStyle = FlatStyle.Flat;
+            btnLimpiar2.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnLimpiar2.ForeColor = SystemColors.Control;
+            btnLimpiar2.Image = Properties.Resources.tizas;
+            btnLimpiar2.Location = new Point(576, 544);
+            btnLimpiar2.Margin = new Padding(0);
+            btnLimpiar2.MaximumSize = new Size(79, 36);
+            btnLimpiar2.MinimumSize = new Size(79, 36);
+            btnLimpiar2.Name = "btnLimpiar2";
+            btnLimpiar2.Size = new Size(79, 36);
+            btnLimpiar2.TabIndex = 16;
+            btnLimpiar2.UseVisualStyleBackColor = false;
+            btnLimpiar2.Click += btnLimpiar2_Click;
+            btnLimpiar2.MouseLeave += btnLimpiar2_MouseLeave;
+            btnLimpiar2.MouseHover += btnLimpiar2_MouseHover;
             // 
             // home2
             // 
-            this.home2.BackgroundImage = global::Matemáticas_v7._0.Properties.Resources.casa;
-            this.home2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.home2.Location = new System.Drawing.Point(883, 13);
-            this.home2.MaximumSize = new System.Drawing.Size(32, 32);
-            this.home2.MinimumSize = new System.Drawing.Size(32, 32);
-            this.home2.Name = "home2";
-            this.home2.Size = new System.Drawing.Size(32, 32);
-            this.home2.TabIndex = 15;
-            this.home2.Click += new System.EventHandler(this.home2_Click);
+            home2.BackgroundImage = Properties.Resources.casa;
+            home2.BackgroundImageLayout = ImageLayout.Zoom;
+            home2.Location = new Point(883, 13);
+            home2.MaximumSize = new Size(32, 32);
+            home2.MinimumSize = new Size(32, 32);
+            home2.Name = "home2";
+            home2.Size = new Size(32, 32);
+            home2.TabIndex = 15;
+            home2.Click += home2_Click;
             // 
             // tabPage4
             // 
-            this.tabPage4.Location = new System.Drawing.Point(16, 4);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(0);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(930, 824);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "4";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            tabPage4.BackgroundImage = Properties.Resources.pan3;
+            tabPage4.BackgroundImageLayout = ImageLayout.Stretch;
+            tabPage4.Controls.Add(txtboxY);
+            tabPage4.Controls.Add(txtboxX);
+            tabPage4.Controls.Add(home3);
+            tabPage4.Controls.Add(txtboxF);
+            tabPage4.Controls.Add(txtboxD);
+            tabPage4.Controls.Add(txtboxB);
+            tabPage4.Controls.Add(txtboxE);
+            tabPage4.Controls.Add(txtboxC);
+            tabPage4.Controls.Add(txtboxA);
+            tabPage4.Controls.Add(btnCalcular3);
+            tabPage4.Controls.Add(btnLimpiar3);
+            tabPage4.Location = new Point(16, 4);
+            tabPage4.Margin = new Padding(0);
+            tabPage4.Name = "tabPage4";
+            tabPage4.Size = new Size(930, 824);
+            tabPage4.TabIndex = 3;
+            tabPage4.Text = "4";
+            tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // txtboxY
+            // 
+            txtboxY.BackColor = Color.FromArgb(75, 101, 84);
+            txtboxY.BorderStyle = BorderStyle.None;
+            txtboxY.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxY.ForeColor = Color.LightCyan;
+            txtboxY.Location = new Point(298, 497);
+            txtboxY.Name = "txtboxY";
+            txtboxY.Size = new Size(124, 45);
+            txtboxY.TabIndex = 28;
+            txtboxY.KeyPress += txtboxResultados_KeyPress;
+            // 
+            // txtboxX
+            // 
+            txtboxX.BackColor = Color.FromArgb(75, 101, 84);
+            txtboxX.BorderStyle = BorderStyle.None;
+            txtboxX.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxX.ForeColor = Color.LightCyan;
+            txtboxX.Location = new Point(298, 425);
+            txtboxX.Name = "txtboxX";
+            txtboxX.Size = new Size(124, 45);
+            txtboxX.TabIndex = 27;
+            txtboxX.KeyPress += txtboxResultados_KeyPress;
+            // 
+            // home3
+            // 
+            home3.BackgroundImage = Properties.Resources.casa;
+            home3.BackgroundImageLayout = ImageLayout.Zoom;
+            home3.Location = new Point(883, 13);
+            home3.MaximumSize = new Size(32, 32);
+            home3.MinimumSize = new Size(32, 32);
+            home3.Name = "home3";
+            home3.Size = new Size(32, 32);
+            home3.TabIndex = 26;
+            home3.Click += home3_Click;
+            // 
+            // txtboxF
+            // 
+            txtboxF.BackColor = Color.FromArgb(75, 101, 84);
+            txtboxF.BorderStyle = BorderStyle.None;
+            txtboxF.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxF.ForeColor = Color.LightCyan;
+            txtboxF.Location = new Point(391, 290);
+            txtboxF.Name = "txtboxF";
+            txtboxF.Size = new Size(124, 45);
+            txtboxF.TabIndex = 25;
+            txtboxF.KeyPress += txtboxDatos_KeyPress;
+            // 
+            // txtboxD
+            // 
+            txtboxD.BackColor = Color.FromArgb(75, 101, 84);
+            txtboxD.BorderStyle = BorderStyle.None;
+            txtboxD.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxD.ForeColor = Color.LightCyan;
+            txtboxD.Location = new Point(391, 237);
+            txtboxD.Name = "txtboxD";
+            txtboxD.Size = new Size(124, 45);
+            txtboxD.TabIndex = 24;
+            txtboxD.KeyPress += txtboxDatos_KeyPress;
+            // 
+            // txtboxB
+            // 
+            txtboxB.BackColor = Color.FromArgb(75, 101, 84);
+            txtboxB.BorderStyle = BorderStyle.None;
+            txtboxB.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxB.ForeColor = Color.LightCyan;
+            txtboxB.Location = new Point(391, 185);
+            txtboxB.Name = "txtboxB";
+            txtboxB.Size = new Size(124, 45);
+            txtboxB.TabIndex = 23;
+            txtboxB.KeyPress += txtboxDatos_KeyPress;
+            // 
+            // txtboxE
+            // 
+            txtboxE.BackColor = Color.FromArgb(75, 101, 84);
+            txtboxE.BorderStyle = BorderStyle.None;
+            txtboxE.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxE.ForeColor = Color.LightCyan;
+            txtboxE.Location = new Point(201, 289);
+            txtboxE.Name = "txtboxE";
+            txtboxE.Size = new Size(124, 45);
+            txtboxE.TabIndex = 22;
+            txtboxE.KeyPress += txtboxDatos_KeyPress;
+            // 
+            // txtboxC
+            // 
+            txtboxC.BackColor = Color.FromArgb(75, 101, 84);
+            txtboxC.BorderStyle = BorderStyle.None;
+            txtboxC.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxC.ForeColor = Color.LightCyan;
+            txtboxC.Location = new Point(201, 236);
+            txtboxC.Name = "txtboxC";
+            txtboxC.Size = new Size(124, 45);
+            txtboxC.TabIndex = 21;
+            txtboxC.KeyPress += txtboxDatos_KeyPress;
+            // 
+            // txtboxA
+            // 
+            txtboxA.BackColor = Color.FromArgb(75, 101, 84);
+            txtboxA.BorderStyle = BorderStyle.None;
+            txtboxA.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxA.ForeColor = Color.LightCyan;
+            txtboxA.Location = new Point(201, 184);
+            txtboxA.Name = "txtboxA";
+            txtboxA.Size = new Size(124, 45);
+            txtboxA.TabIndex = 20;
+            txtboxA.KeyPress += txtboxDatos_KeyPress;
+            // 
+            // btnCalcular3
+            // 
+            btnCalcular3.BackColor = Color.FromArgb(75, 101, 84);
+            btnCalcular3.BackgroundImageLayout = ImageLayout.Center;
+            btnCalcular3.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnCalcular3.FlatAppearance.BorderSize = 0;
+            btnCalcular3.FlatStyle = FlatStyle.Flat;
+            btnCalcular3.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCalcular3.ForeColor = SystemColors.Control;
+            btnCalcular3.Image = Properties.Resources.borrador;
+            btnCalcular3.Location = new Point(673, 508);
+            btnCalcular3.Margin = new Padding(0);
+            btnCalcular3.MaximumSize = new Size(123, 69);
+            btnCalcular3.MinimumSize = new Size(123, 69);
+            btnCalcular3.Name = "btnCalcular3";
+            btnCalcular3.Size = new Size(123, 69);
+            btnCalcular3.TabIndex = 19;
+            btnCalcular3.UseVisualStyleBackColor = false;
+            btnCalcular3.Click += btnCalcular3_Click;
+            btnCalcular3.MouseLeave += btnCalcular3_MouseLeave;
+            btnCalcular3.MouseHover += btnCalcular3_MouseHover;
+            // 
+            // btnLimpiar3
+            // 
+            btnLimpiar3.BackColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar3.BackgroundImageLayout = ImageLayout.Center;
+            btnLimpiar3.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar3.FlatAppearance.BorderSize = 0;
+            btnLimpiar3.FlatStyle = FlatStyle.Flat;
+            btnLimpiar3.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnLimpiar3.ForeColor = SystemColors.Control;
+            btnLimpiar3.Image = Properties.Resources.tizas;
+            btnLimpiar3.Location = new Point(576, 544);
+            btnLimpiar3.Margin = new Padding(0);
+            btnLimpiar3.MaximumSize = new Size(79, 36);
+            btnLimpiar3.MinimumSize = new Size(79, 36);
+            btnLimpiar3.Name = "btnLimpiar3";
+            btnLimpiar3.Size = new Size(79, 36);
+            btnLimpiar3.TabIndex = 18;
+            btnLimpiar3.UseVisualStyleBackColor = false;
+            btnLimpiar3.Click += btnLimpiar3_Click;
+            btnLimpiar3.MouseLeave += btnLimpiar3_MouseLeave;
+            btnLimpiar3.MouseHover += btnLimpiar3_MouseHover;
             // 
             // tabPage5
             // 
-            this.tabPage5.Location = new System.Drawing.Point(16, 4);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(0);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(930, 824);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "5";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            tabPage5.Location = new Point(16, 4);
+            tabPage5.Margin = new Padding(0);
+            tabPage5.Name = "tabPage5";
+            tabPage5.Size = new Size(930, 824);
+            tabPage5.TabIndex = 4;
+            tabPage5.Text = "5";
+            tabPage5.UseVisualStyleBackColor = true;
             // 
             // tabPage6
             // 
-            this.tabPage6.Location = new System.Drawing.Point(16, 4);
-            this.tabPage6.Margin = new System.Windows.Forms.Padding(0);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(930, 824);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "6";
-            this.tabPage6.UseVisualStyleBackColor = true;
+            tabPage6.BackgroundImage = Properties.Resources.pan6;
+            tabPage6.BackgroundImageLayout = ImageLayout.Stretch;
+            tabPage6.Controls.Add(home6);
+            tabPage6.Controls.Add(btnLimpiar5);
+            tabPage6.Controls.Add(btnCalcular5);
+            tabPage6.Controls.Add(txtboxAbogado);
+            tabPage6.Controls.Add(txtboxHijo2);
+            tabPage6.Controls.Add(txtboxHijo3);
+            tabPage6.Controls.Add(txtboxHijo1);
+            tabPage6.Controls.Add(txtboxHerencia);
+            tabPage6.Location = new Point(16, 4);
+            tabPage6.Margin = new Padding(0);
+            tabPage6.Name = "tabPage6";
+            tabPage6.Size = new Size(930, 824);
+            tabPage6.TabIndex = 5;
+            tabPage6.Text = "6";
+            tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // home6
+            // 
+            home6.BackgroundImage = (Image)resources.GetObject("home6.BackgroundImage");
+            home6.BackgroundImageLayout = ImageLayout.Stretch;
+            home6.Location = new Point(883, 13);
+            home6.MaximumSize = new Size(32, 32);
+            home6.MinimumSize = new Size(32, 32);
+            home6.Name = "home6";
+            home6.Size = new Size(32, 32);
+            home6.TabIndex = 33;
+            home6.Click += home6_Click;
+            // 
+            // btnLimpiar5
+            // 
+            btnLimpiar5.BackColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar5.BackgroundImageLayout = ImageLayout.Center;
+            btnLimpiar5.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar5.FlatAppearance.BorderSize = 0;
+            btnLimpiar5.FlatStyle = FlatStyle.Flat;
+            btnLimpiar5.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnLimpiar5.ForeColor = SystemColors.Control;
+            btnLimpiar5.Image = Properties.Resources.borrador;
+            btnLimpiar5.Location = new Point(673, 508);
+            btnLimpiar5.Margin = new Padding(0);
+            btnLimpiar5.MaximumSize = new Size(123, 69);
+            btnLimpiar5.MinimumSize = new Size(123, 69);
+            btnLimpiar5.Name = "btnLimpiar5";
+            btnLimpiar5.Size = new Size(123, 69);
+            btnLimpiar5.TabIndex = 32;
+            btnLimpiar5.UseVisualStyleBackColor = false;
+            btnLimpiar5.MouseLeave += btnLimpiar5_MouseLeave;
+            btnLimpiar5.MouseHover += btnLimpiar5_MouseHover;
+            // 
+            // btnCalcular5
+            // 
+            btnCalcular5.BackColor = Color.FromArgb(75, 101, 84);
+            btnCalcular5.BackgroundImageLayout = ImageLayout.Center;
+            btnCalcular5.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnCalcular5.FlatAppearance.BorderSize = 0;
+            btnCalcular5.FlatStyle = FlatStyle.Flat;
+            btnCalcular5.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCalcular5.ForeColor = SystemColors.Control;
+            btnCalcular5.Image = Properties.Resources.tizas;
+            btnCalcular5.Location = new Point(576, 544);
+            btnCalcular5.Margin = new Padding(0);
+            btnCalcular5.MaximumSize = new Size(79, 36);
+            btnCalcular5.MinimumSize = new Size(79, 36);
+            btnCalcular5.Name = "btnCalcular5";
+            btnCalcular5.Size = new Size(79, 36);
+            btnCalcular5.TabIndex = 31;
+            btnCalcular5.UseVisualStyleBackColor = false;
+            btnCalcular5.MouseLeave += btnCalcular5_MouseLeave;
+            btnCalcular5.MouseHover += btnCalcular5_MouseHover;
+            // 
+            // txtboxAbogado
+            // 
+            txtboxAbogado.BackColor = Color.FromArgb(75, 101, 84);
+            txtboxAbogado.BorderStyle = BorderStyle.None;
+            txtboxAbogado.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxAbogado.ForeColor = Color.LightCyan;
+            txtboxAbogado.Location = new Point(637, 350);
+            txtboxAbogado.Name = "txtboxAbogado";
+            txtboxAbogado.Size = new Size(124, 45);
+            txtboxAbogado.TabIndex = 30;
+            // 
+            // txtboxHijo2
+            // 
+            txtboxHijo2.BackColor = Color.FromArgb(75, 101, 84);
+            txtboxHijo2.BorderStyle = BorderStyle.None;
+            txtboxHijo2.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxHijo2.ForeColor = Color.LightCyan;
+            txtboxHijo2.Location = new Point(269, 423);
+            txtboxHijo2.Name = "txtboxHijo2";
+            txtboxHijo2.Size = new Size(124, 45);
+            txtboxHijo2.TabIndex = 29;
+            // 
+            // txtboxHijo3
+            // 
+            txtboxHijo3.BackColor = Color.FromArgb(75, 101, 84);
+            txtboxHijo3.BorderStyle = BorderStyle.None;
+            txtboxHijo3.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxHijo3.ForeColor = Color.LightCyan;
+            txtboxHijo3.Location = new Point(269, 497);
+            txtboxHijo3.Name = "txtboxHijo3";
+            txtboxHijo3.Size = new Size(124, 45);
+            txtboxHijo3.TabIndex = 29;
+            // 
+            // txtboxHijo1
+            // 
+            txtboxHijo1.BackColor = Color.FromArgb(75, 101, 84);
+            txtboxHijo1.BorderStyle = BorderStyle.None;
+            txtboxHijo1.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxHijo1.ForeColor = Color.LightCyan;
+            txtboxHijo1.Location = new Point(269, 349);
+            txtboxHijo1.Name = "txtboxHijo1";
+            txtboxHijo1.Size = new Size(124, 45);
+            txtboxHijo1.TabIndex = 28;
+            // 
+            // txtboxHerencia
+            // 
+            txtboxHerencia.BackColor = Color.FromArgb(75, 101, 84);
+            txtboxHerencia.BorderStyle = BorderStyle.None;
+            txtboxHerencia.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxHerencia.ForeColor = Color.LightCyan;
+            txtboxHerencia.Location = new Point(336, 183);
+            txtboxHerencia.Name = "txtboxHerencia";
+            txtboxHerencia.Size = new Size(124, 45);
+            txtboxHerencia.TabIndex = 21;
             // 
             // tabPage7
             // 
-            this.tabPage7.Location = new System.Drawing.Point(16, 4);
-            this.tabPage7.Margin = new System.Windows.Forms.Padding(0);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(930, 824);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "7";
-            this.tabPage7.UseVisualStyleBackColor = true;
+            tabPage7.Location = new Point(16, 4);
+            tabPage7.Margin = new Padding(0);
+            tabPage7.Name = "tabPage7";
+            tabPage7.Size = new Size(930, 824);
+            tabPage7.TabIndex = 6;
+            tabPage7.Text = "7";
+            tabPage7.UseVisualStyleBackColor = true;
             // 
             // tabPage8
             // 
-            this.tabPage8.Location = new System.Drawing.Point(16, 4);
-            this.tabPage8.Margin = new System.Windows.Forms.Padding(0);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(930, 824);
-            this.tabPage8.TabIndex = 7;
-            this.tabPage8.Text = "8";
-            this.tabPage8.UseVisualStyleBackColor = true;
+            tabPage8.Location = new Point(16, 4);
+            tabPage8.Margin = new Padding(0);
+            tabPage8.Name = "tabPage8";
+            tabPage8.Size = new Size(930, 824);
+            tabPage8.TabIndex = 7;
+            tabPage8.Text = "8";
+            tabPage8.UseVisualStyleBackColor = true;
             // 
             // tabPage9
             // 
-            this.tabPage9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage9.BackgroundImage")));
-            this.tabPage9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tabPage9.Controls.Add(this.home9);
-            this.tabPage9.Location = new System.Drawing.Point(16, 4);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(930, 824);
-            this.tabPage9.TabIndex = 8;
-            this.tabPage9.Text = "tabPage9";
-            this.tabPage9.UseVisualStyleBackColor = true;
+            tabPage9.BackgroundImage = (Image)resources.GetObject("tabPage9.BackgroundImage");
+            tabPage9.BackgroundImageLayout = ImageLayout.Stretch;
+            tabPage9.Controls.Add(home9);
+            tabPage9.Location = new Point(16, 4);
+            tabPage9.Name = "tabPage9";
+            tabPage9.Size = new Size(930, 824);
+            tabPage9.TabIndex = 8;
+            tabPage9.Text = "tabPage9";
+            tabPage9.UseVisualStyleBackColor = true;
             // 
             // home9
             // 
-            this.home9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("home9.BackgroundImage")));
-            this.home9.Location = new System.Drawing.Point(883, 13);
-            this.home9.Name = "home9";
-            this.home9.Size = new System.Drawing.Size(32, 32);
-            this.home9.TabIndex = 15;
-            this.home9.Click += new System.EventHandler(this.home9_Click);
+            home9.BackgroundImage = (Image)resources.GetObject("home9.BackgroundImage");
+            home9.Location = new Point(883, 13);
+            home9.Name = "home9";
+            home9.Size = new Size(32, 32);
+            home9.TabIndex = 15;
+            home9.Click += home9_Click;
             // 
             // tabPage10
             // 
-            this.tabPage10.Location = new System.Drawing.Point(16, 4);
-            this.tabPage10.Margin = new System.Windows.Forms.Padding(0);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Size = new System.Drawing.Size(930, 824);
-            this.tabPage10.TabIndex = 9;
-            this.tabPage10.Text = "tabPage10";
-            this.tabPage10.UseVisualStyleBackColor = true;
+            tabPage10.Location = new Point(16, 4);
+            tabPage10.Margin = new Padding(0);
+            tabPage10.Name = "tabPage10";
+            tabPage10.Size = new Size(930, 824);
+            tabPage10.TabIndex = 9;
+            tabPage10.Text = "tabPage10";
+            tabPage10.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(150, 168);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(0, 0);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            button1.Location = new Point(150, 168);
+            button1.Name = "button1";
+            button1.Size = new Size(0, 0);
+            button1.TabIndex = 2;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
-            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.panel2.BackColor = System.Drawing.SystemColors.Control;
-            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Controls.Add(this.btn8);
-            this.panel2.Controls.Add(this.btn7);
-            this.panel2.Controls.Add(this.btn6);
-            this.panel2.Controls.Add(this.btn5);
-            this.panel2.Controls.Add(this.btn4);
-            this.panel2.Controls.Add(this.btn3);
-            this.panel2.Controls.Add(this.btn2);
-            this.panel2.Controls.Add(this.btnpato);
-            this.panel2.Controls.Add(this.btn1);
-            this.panel2.Location = new System.Drawing.Point(0, -4);
-            this.panel2.Margin = new System.Windows.Forms.Padding(0);
-            this.panel2.MaximumSize = new System.Drawing.Size(388, 827);
-            this.panel2.MinimumSize = new System.Drawing.Size(388, 827);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(388, 827);
-            this.panel2.TabIndex = 9;
+            panel2.Anchor = AnchorStyles.Left;
+            panel2.BackColor = SystemColors.Control;
+            panel2.BackgroundImage = (Image)resources.GetObject("panel2.BackgroundImage");
+            panel2.BackgroundImageLayout = ImageLayout.Stretch;
+            panel2.Controls.Add(btn8);
+            panel2.Controls.Add(btn7);
+            panel2.Controls.Add(btn6);
+            panel2.Controls.Add(btn5);
+            panel2.Controls.Add(btn4);
+            panel2.Controls.Add(btn3);
+            panel2.Controls.Add(btn2);
+            panel2.Controls.Add(btnpato);
+            panel2.Controls.Add(btn1);
+            panel2.Location = new Point(0, -4);
+            panel2.Margin = new Padding(0);
+            panel2.MaximumSize = new Size(388, 827);
+            panel2.MinimumSize = new Size(388, 827);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(388, 827);
+            panel2.TabIndex = 9;
             // 
             // btn8
             // 
-            this.btn8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btn8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btn8.FlatAppearance.BorderSize = 0;
-            this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn8.Font = new System.Drawing.Font("KG Ten Thousand Reasons", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn8.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn8.Location = new System.Drawing.Point(65, 429);
-            this.btn8.Margin = new System.Windows.Forms.Padding(0);
-            this.btn8.MaximumSize = new System.Drawing.Size(251, 46);
-            this.btn8.MinimumSize = new System.Drawing.Size(251, 46);
-            this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(251, 46);
-            this.btn8.TabIndex = 8;
-            this.btn8.Text = "Ordenamiento";
-            this.btn8.UseVisualStyleBackColor = false;
-            this.btn8.Click += new System.EventHandler(this.btn8_Click);
+            btn8.BackColor = Color.FromArgb(75, 101, 84);
+            btn8.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btn8.FlatAppearance.BorderSize = 0;
+            btn8.FlatStyle = FlatStyle.Flat;
+            btn8.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btn8.ForeColor = SystemColors.Control;
+            btn8.Location = new Point(65, 429);
+            btn8.Margin = new Padding(0);
+            btn8.MaximumSize = new Size(251, 46);
+            btn8.MinimumSize = new Size(251, 46);
+            btn8.Name = "btn8";
+            btn8.Size = new Size(251, 46);
+            btn8.TabIndex = 8;
+            btn8.Text = "Ordenamiento";
+            btn8.UseVisualStyleBackColor = false;
+            btn8.Click += btn8_Click;
             // 
             // btn7
             // 
-            this.btn7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btn7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btn7.FlatAppearance.BorderSize = 0;
-            this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn7.Font = new System.Drawing.Font("KG Ten Thousand Reasons", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn7.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn7.Location = new System.Drawing.Point(65, 379);
-            this.btn7.Margin = new System.Windows.Forms.Padding(0);
-            this.btn7.MaximumSize = new System.Drawing.Size(251, 46);
-            this.btn7.MinimumSize = new System.Drawing.Size(251, 46);
-            this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(251, 46);
-            this.btn7.TabIndex = 7;
-            this.btn7.Text = "El M.C.M";
-            this.btn7.UseVisualStyleBackColor = false;
-            this.btn7.Click += new System.EventHandler(this.btn7_Click);
+            btn7.BackColor = Color.FromArgb(75, 101, 84);
+            btn7.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btn7.FlatAppearance.BorderSize = 0;
+            btn7.FlatStyle = FlatStyle.Flat;
+            btn7.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btn7.ForeColor = SystemColors.Control;
+            btn7.Location = new Point(65, 379);
+            btn7.Margin = new Padding(0);
+            btn7.MaximumSize = new Size(251, 46);
+            btn7.MinimumSize = new Size(251, 46);
+            btn7.Name = "btn7";
+            btn7.Size = new Size(251, 46);
+            btn7.TabIndex = 7;
+            btn7.Text = "El M.C.M";
+            btn7.UseVisualStyleBackColor = false;
+            btn7.Click += btn7_Click;
             // 
             // btn6
             // 
-            this.btn6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btn6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btn6.FlatAppearance.BorderSize = 0;
-            this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn6.Font = new System.Drawing.Font("KG Ten Thousand Reasons", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn6.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn6.Location = new System.Drawing.Point(65, 330);
-            this.btn6.Margin = new System.Windows.Forms.Padding(0);
-            this.btn6.MaximumSize = new System.Drawing.Size(251, 46);
-            this.btn6.MinimumSize = new System.Drawing.Size(251, 46);
-            this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(251, 46);
-            this.btn6.TabIndex = 6;
-            this.btn6.Text = "Año Bisiesto";
-            this.btn6.UseVisualStyleBackColor = false;
-            this.btn6.Click += new System.EventHandler(this.btn6_Click);
+            btn6.BackColor = Color.FromArgb(75, 101, 84);
+            btn6.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btn6.FlatAppearance.BorderSize = 0;
+            btn6.FlatStyle = FlatStyle.Flat;
+            btn6.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btn6.ForeColor = SystemColors.Control;
+            btn6.Location = new Point(65, 330);
+            btn6.Margin = new Padding(0);
+            btn6.MaximumSize = new Size(251, 46);
+            btn6.MinimumSize = new Size(251, 46);
+            btn6.Name = "btn6";
+            btn6.Size = new Size(251, 46);
+            btn6.TabIndex = 6;
+            btn6.Text = "Año Bisiesto";
+            btn6.UseVisualStyleBackColor = false;
+            btn6.Click += btn6_Click;
             // 
             // btn5
             // 
-            this.btn5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btn5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btn5.FlatAppearance.BorderSize = 0;
-            this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5.Font = new System.Drawing.Font("KG Ten Thousand Reasons", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn5.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn5.Location = new System.Drawing.Point(65, 278);
-            this.btn5.Margin = new System.Windows.Forms.Padding(0);
-            this.btn5.MaximumSize = new System.Drawing.Size(251, 46);
-            this.btn5.MinimumSize = new System.Drawing.Size(251, 46);
-            this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(251, 46);
-            this.btn5.TabIndex = 5;
-            this.btn5.Text = "Herencia";
-            this.btn5.UseVisualStyleBackColor = false;
-            this.btn5.Click += new System.EventHandler(this.btn5_Click);
+            btn5.BackColor = Color.FromArgb(75, 101, 84);
+            btn5.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btn5.FlatAppearance.BorderSize = 0;
+            btn5.FlatStyle = FlatStyle.Flat;
+            btn5.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btn5.ForeColor = SystemColors.Control;
+            btn5.Location = new Point(65, 278);
+            btn5.Margin = new Padding(0);
+            btn5.MaximumSize = new Size(251, 46);
+            btn5.MinimumSize = new Size(251, 46);
+            btn5.Name = "btn5";
+            btn5.Size = new Size(251, 46);
+            btn5.TabIndex = 5;
+            btn5.Text = "Herencia";
+            btn5.UseVisualStyleBackColor = false;
+            btn5.Click += btn5_Click;
             // 
             // btn4
             // 
-            this.btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btn4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btn4.FlatAppearance.BorderSize = 0;
-            this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4.Font = new System.Drawing.Font("KG Ten Thousand Reasons", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn4.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn4.Location = new System.Drawing.Point(65, 229);
-            this.btn4.Margin = new System.Windows.Forms.Padding(0);
-            this.btn4.MaximumSize = new System.Drawing.Size(251, 46);
-            this.btn4.MinimumSize = new System.Drawing.Size(251, 46);
-            this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(251, 46);
-            this.btn4.TabIndex = 4;
-            this.btn4.Text = "Cajero de Banco";
-            this.btn4.UseVisualStyleBackColor = false;
-            this.btn4.Click += new System.EventHandler(this.btn4_Click);
+            btn4.BackColor = Color.FromArgb(75, 101, 84);
+            btn4.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btn4.FlatAppearance.BorderSize = 0;
+            btn4.FlatStyle = FlatStyle.Flat;
+            btn4.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btn4.ForeColor = SystemColors.Control;
+            btn4.Location = new Point(65, 229);
+            btn4.Margin = new Padding(0);
+            btn4.MaximumSize = new Size(251, 46);
+            btn4.MinimumSize = new Size(251, 46);
+            btn4.Name = "btn4";
+            btn4.Size = new Size(251, 46);
+            btn4.TabIndex = 4;
+            btn4.Text = "Cajero de Banco";
+            btn4.UseVisualStyleBackColor = false;
+            btn4.Click += btn4_Click;
             // 
             // btn3
             // 
-            this.btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btn3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btn3.FlatAppearance.BorderSize = 0;
-            this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3.Font = new System.Drawing.Font("KG Ten Thousand Reasons", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn3.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn3.Location = new System.Drawing.Point(65, 178);
-            this.btn3.Margin = new System.Windows.Forms.Padding(0);
-            this.btn3.MaximumSize = new System.Drawing.Size(251, 46);
-            this.btn3.MinimumSize = new System.Drawing.Size(251, 46);
-            this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(251, 46);
-            this.btn3.TabIndex = 3;
-            this.btn3.Text = "Determinante";
-            this.btn3.UseVisualStyleBackColor = false;
-            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            btn3.BackColor = Color.FromArgb(75, 101, 84);
+            btn3.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btn3.FlatAppearance.BorderSize = 0;
+            btn3.FlatStyle = FlatStyle.Flat;
+            btn3.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btn3.ForeColor = SystemColors.Control;
+            btn3.Location = new Point(65, 178);
+            btn3.Margin = new Padding(0);
+            btn3.MaximumSize = new Size(251, 46);
+            btn3.MinimumSize = new Size(251, 46);
+            btn3.Name = "btn3";
+            btn3.Size = new Size(251, 46);
+            btn3.TabIndex = 3;
+            btn3.Text = "Determinante";
+            btn3.UseVisualStyleBackColor = false;
+            btn3.Click += btn3_Click;
             // 
             // btn2
             // 
-            this.btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btn2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(101)))), ((int)(((byte)(84)))));
-            this.btn2.FlatAppearance.BorderSize = 0;
-            this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2.Font = new System.Drawing.Font("KG Ten Thousand Reasons", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn2.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn2.Location = new System.Drawing.Point(65, 123);
-            this.btn2.Margin = new System.Windows.Forms.Padding(0);
-            this.btn2.MaximumSize = new System.Drawing.Size(251, 46);
-            this.btn2.MinimumSize = new System.Drawing.Size(251, 46);
-            this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(251, 46);
-            this.btn2.TabIndex = 2;
-            this.btn2.Text = "Ángulos Agudos";
-            this.btn2.UseVisualStyleBackColor = false;
-            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            btn2.BackColor = Color.FromArgb(75, 101, 84);
+            btn2.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btn2.FlatAppearance.BorderSize = 0;
+            btn2.FlatStyle = FlatStyle.Flat;
+            btn2.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btn2.ForeColor = SystemColors.Control;
+            btn2.Location = new Point(65, 123);
+            btn2.Margin = new Padding(0);
+            btn2.MaximumSize = new Size(251, 46);
+            btn2.MinimumSize = new Size(251, 46);
+            btn2.Name = "btn2";
+            btn2.Size = new Size(251, 46);
+            btn2.TabIndex = 2;
+            btn2.Text = "Ángulos Agudos";
+            btn2.UseVisualStyleBackColor = false;
+            btn2.Click += btn2_Click;
             // 
             // btnpato
             // 
-            this.btnpato.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnpato.BackColor = System.Drawing.Color.Transparent;
-            this.btnpato.BackgroundImage = global::Matemáticas_v7._0.Properties.Resources.pato;
-            this.btnpato.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnpato.Location = new System.Drawing.Point(42, 484);
-            this.btnpato.MaximumSize = new System.Drawing.Size(291, 336);
-            this.btnpato.MinimumSize = new System.Drawing.Size(291, 336);
-            this.btnpato.Name = "btnpato";
-            this.btnpato.Size = new System.Drawing.Size(291, 336);
-            this.btnpato.TabIndex = 1;
-            this.btnpato.TabStop = false;
-            this.btnpato.Click += new System.EventHandler(this.pictureBox1_Click);
-            this.btnpato.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
-            this.btnpato.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
+            btnpato.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            btnpato.BackColor = Color.Transparent;
+            btnpato.BackgroundImage = Properties.Resources.pato;
+            btnpato.BackgroundImageLayout = ImageLayout.Stretch;
+            btnpato.Location = new Point(42, 484);
+            btnpato.MaximumSize = new Size(291, 336);
+            btnpato.MinimumSize = new Size(291, 336);
+            btnpato.Name = "btnpato";
+            btnpato.Size = new Size(291, 336);
+            btnpato.TabIndex = 1;
+            btnpato.TabStop = false;
+            btnpato.Click += pictureBox1_Click;
+            btnpato.MouseLeave += pictureBox1_MouseLeave;
+            btnpato.MouseHover += pictureBox1_MouseHover;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.Chocolate;
-            this.ClientSize = new System.Drawing.Size(1292, 823);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.button1);
-            this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1292, 823);
-            this.MinimumSize = new System.Drawing.Size(1292, 823);
-            this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Matemáticas v7.0";
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage9.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.btnpato)).EndInit();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
+            BackColor = Color.Chocolate;
+            ClientSize = new Size(1292, 823);
+            Controls.Add(panel2);
+            Controls.Add(tabControl1);
+            Controls.Add(button1);
+            DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            MaximumSize = new Size(1292, 823);
+            MinimumSize = new Size(1292, 823);
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Matemáticas v7.0";
+            tabControl1.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
+            tabPage2.ResumeLayout(false);
+            tabPage2.PerformLayout();
+            tabPage3.ResumeLayout(false);
+            tabPage4.ResumeLayout(false);
+            tabPage4.PerformLayout();
+            tabPage6.ResumeLayout(false);
+            tabPage6.PerformLayout();
+            tabPage9.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)btnpato).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
@@ -685,5 +990,24 @@
         private Button btnCalcular2;
         private Button btnLimpiar2;
         private TabPage tabPage10;
+        private Button btnCalcular3;
+        private Button btnLimpiar3;
+        private TextBox txtboxF;
+        private TextBox txtboxD;
+        private TextBox txtboxB;
+        private TextBox txtboxE;
+        private TextBox txtboxC;
+        private TextBox txtboxA;
+        private Panel home3;
+        private TextBox txtboxY;
+        private TextBox txtboxX;
+        private TextBox txtboxHerencia;
+        private TextBox txtboxHijo2;
+        private TextBox txtboxHijo3;
+        private TextBox txtboxHijo1;
+        private TextBox txtboxAbogado;
+        private Button btnCalcular5;
+        private Button btnLimpiar5;
+        private Panel home6;
     }
 }

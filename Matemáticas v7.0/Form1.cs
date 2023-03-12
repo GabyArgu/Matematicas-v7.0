@@ -177,7 +177,7 @@ namespace Matemáticas_v7._0
             //Se programa la ecuación
 
             //declaración de variables de tipo Double
-            double a, b, c,deter, x1, x2, deterc1,deterc2;
+            double a, b, c, deter, x1, x2, deterc1, deterc2;
             //obtenemos las variables a, b y c de losTextBox txta,txtb y txtc
             //para poder usarlas las convertimos a tipo Double
             a = Convert.ToDouble(txtA.Text);
@@ -185,17 +185,17 @@ namespace Matemáticas_v7._0
             c = Convert.ToDouble(txtC.Text);
             //realizamos la operación de la fórmulageneral, para obtener los dos valores de x
             //Math.sqrt determina la raíz cuadrada
-            deter= (Math.Pow(b, 2)) - 4 * a * c;
+            deter = (Math.Pow(b, 2)) - 4 * a * c;
 
             if (deter < 0)
             {
                 //Al no tener solución en los reales, se resolvera como numero imaginario
                 deter = -deter;
-                deterc1 = -b/ (2 * a);
-                deterc2 = Math.Sqrt(deter)/(2 * a);
+                deterc1 = -b / (2 * a);
+                deterc2 = Math.Sqrt(deter) / (2 * a);
 
                 //Se imprimen los valores tanto positivo como negativo concatenando el simbolo de imaginario i
-                txtX1.Text = Math.Round(deterc1, 2).ToString()+ " + " + Math.Round(deterc2, 2).ToString() + " i";
+                txtX1.Text = Math.Round(deterc1, 2).ToString() + " + " + Math.Round(deterc2, 2).ToString() + " i";
                 txtX2.Text = Math.Round(deterc1, 2).ToString() + " - " + Math.Round(deterc2, 2).ToString() + " i";
             }
             else if (a == 0)
@@ -286,7 +286,7 @@ namespace Matemáticas_v7._0
         private void btnCalcular_MouseLeave(object sender, EventArgs e)
         {
             //Mediante el evento Leave se cambia la imagen de la tiza para cuando el mouse este fuera del btn
-            btnCalcular.Image =  global::Matemáticas_v7._0.Properties.Resources.tizas;
+            btnCalcular.Image = global::Matemáticas_v7._0.Properties.Resources.tizas;
         }
 
         private void btnLimpiar_MouseHover(object sender, EventArgs e)
@@ -358,7 +358,7 @@ namespace Matemáticas_v7._0
 
         }
 
-
+        //Fin de Programación del primero programa-----------------------------------------------------------------------------
 
         //Inicio de Programación del segundo programa-------------------------------------------------------------------------
 
@@ -414,10 +414,196 @@ namespace Matemáticas_v7._0
             btn8.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
         }
 
-        //Fin de Programación del primer programa-----------------------------------------------------------------------------
+        //Fin de Programación del segundo programa-----------------------------------------------------------------------------
 
 
+        //Inicio de Programación del tercer programa-----------------------------------------------------------------------------
+        private void btnLimpiar3_MouseHover(object sender, EventArgs e)
+        {
+            //Mediante el evento hover se cambia la imagen del borrador
+            btnLimpiar3.Image = global::Matemáticas_v7._0.Properties.Resources.tiza2;
+        }
 
+        private void btnLimpiar3_MouseLeave(object sender, EventArgs e)
+        {
+            btnLimpiar3.Image = global::Matemáticas_v7._0.Properties.Resources.tizas;
+        }
+
+        private void btnLimpiar3_Click(object sender, EventArgs e)
+        {
+            //Validacion de no dejar espacios
+            if (txtboxA.Text == "")
+            {
+                MessageBox.Show(" Favor ingresar el valor de A ", "Error");
+                txtboxA.Focus();
+                return;
+            }
+            if (txtboxB.Text == "")
+            {
+                MessageBox.Show(" Favor ingresar el valor de B ", "Error");
+                txtboxB.Focus();
+                return;
+            }
+            if (txtboxC.Text == "")
+            {
+                MessageBox.Show(" Favor ingresar el valor de C ", "Error");
+                txtboxC.Focus();
+                return;
+            }
+            if (txtboxD.Text == "")
+            {
+                MessageBox.Show(" Favor ingresar el valor de D ", "Error");
+                txtboxD.Focus();
+                return;
+            }
+            if (txtboxE.Text == "")
+            {
+                MessageBox.Show(" Favor ingresar el valor de E ", "Error");
+                txtboxE.Focus();
+                return;
+            }
+            if (txtboxF.Text == "")
+            {
+                MessageBox.Show(" Favor ingresar el valor de F ", "Error");
+                txtboxF.Focus();
+                return;
+            }
+
+            //Se programa la ecuación
+
+            // Declaracion de variables
+            double da, db, dc, dd, de, df, deterg, deterx, detery, rx, ry;
+            // Entrada de datos
+            da = Double.Parse(txtboxA.Text);
+            db = Double.Parse(txtboxB.Text);
+            dc = Double.Parse(txtboxC.Text);
+            dd = Double.Parse(txtboxD.Text);
+            de = Double.Parse(txtboxE.Text);
+            df = Double.Parse(txtboxF.Text);
+            Console.Write("\n");
+            // Proceso de los datos
+            deterg = (da * dd) - (db * dc);
+            deterx = (de * dd) - (db * df);
+            detery = (da * df) - (de * dc);
+            rx = deterx / deterg;
+            ry = detery / deterg;
+
+            // Salida de los datos
+            txtboxX.Text = (Math.Round(rx, 2)).ToString();
+            txtboxY.Text = (Math.Round(ry, 2)).ToString();
+        }
+
+        private void btnCalcular3_MouseHover(object sender, EventArgs e)
+        {
+            //Mediante el evento hover se cambia la imagen de la tiza
+            btnCalcular3.Image = global::Matemáticas_v7._0.Properties.Resources.borrador2;
+        }
+
+        private void btnCalcular3_MouseLeave(object sender, EventArgs e)
+        {
+            //Mediante el evento Leave se cambia la imagen de la tiza para cuando el mouse este fuera del btn
+            btnCalcular3.Image = global::Matemáticas_v7._0.Properties.Resources.borrador;
+        }
+
+        private void btnCalcular3_Click(object sender, EventArgs e)
+        {
+            //Se limpian todos los campos
+            txtboxA.Text = "";
+            txtboxB.Text = "";
+            txtboxC.Text = "";
+            txtboxD.Text = "";
+            txtboxE.Text = "";
+            txtboxF.Text = "";
+            txtboxX.Text = "";
+            txtboxY.Text = "";
+            txtA.Focus();
+        }
+
+        private void txtboxDatos_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar >= 32 && e.KeyChar <= 44) || (e.KeyChar >= 58 && e.KeyChar <= 255))
+            {
+                //Validacion de solo teclas numericas
+                MessageBox.Show("Solo se aceptan valores numericos", "Alerta");
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtboxResultados_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar >= 0 && e.KeyChar <= 255)
+            {
+                //Validacion para que no escriban nada
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void home3_Click(object sender, EventArgs e)
+        {
+            // Se muestra el panel 0 de tabControl
+            tabControl1.SelectedIndex = 0;
+
+            // Poner en negritar el boton seleccionado
+
+
+            //Poner en regular a todos los demas boton
+            btn1.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn2.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn3.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn4.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn5.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn6.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn7.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn8.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+        }
+
+        private void home6_Click(object sender, EventArgs e)
+        {
+            // Se muestra el panel 0 de tabControl
+            tabControl1.SelectedIndex = 0;
+
+            // Poner en negritar el boton seleccionado
+
+
+            //Poner en regular a todos los demas boton
+            btn1.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn2.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn3.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn4.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn5.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn6.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn7.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn8.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+        }
+
+        private void btnCalcular5_MouseHover(object sender, EventArgs e)
+        {
+            //Mediante el evento hover se cambia la imagen de la tiza
+            btnCalcular5.Image = global::Matemáticas_v7._0.Properties.Resources.tiza2;
+        }
+
+        private void btnCalcular5_MouseLeave(object sender, EventArgs e)
+        {
+            //Mediante el evento hover se cambia la imagen de la tiza
+            btnCalcular5.Image = global::Matemáticas_v7._0.Properties.Resources.tizas;
+        }
+
+        private void btnLimpiar5_MouseHover(object sender, EventArgs e)
+        {
+            btnLimpiar5.Image = global::Matemáticas_v7._0.Properties.Resources.borrador2;
+        }
+
+        private void btnLimpiar5_MouseLeave(object sender, EventArgs e)
+        {
+            btnLimpiar5.Image = global::Matemáticas_v7._0.Properties.Resources.borrador;
+        }
+
+
+        //Fin de Programación del segundo programa-----------------------------------------------------------------------------
+
+        //Inicio de Programación del tercer programa-----------------------------------------------------------------------------
 
     }
 }
