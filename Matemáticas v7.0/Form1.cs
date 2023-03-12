@@ -559,6 +559,39 @@ namespace Matemáticas_v7._0
             btn8.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
         }
 
+        private void home6_Click(object sender, EventArgs e)
+        {
+            // Se muestra el panel 0 de tabControl
+            tabControl1.SelectedIndex = 0;
+
+            // Poner en negritar el boton seleccionado
+
+
+            //Poner en regular a todos los demas boton
+            btn1.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn2.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn3.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn4.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn5.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn6.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn7.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+            btn8.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
+        }
+
+        private void btnCalcular5_MouseHover(object sender, EventArgs e)
+        {
+            //Mediante el evento hover se cambia la imagen de la tiza
+            btnCalcular5.Image = global::Matemáticas_v7._0.Properties.Resources.tiza2;
+        }
+
+        private void btnCalcular5_MouseLeave(object sender, EventArgs e)
+        {
+            //Mediante el evento hover se cambia la imagen de la tiza
+            btnCalcular5.Image = global::Matemáticas_v7._0.Properties.Resources.tizas;
+        }
+
+
+
         //Fin de Programación del segundo programa-----------------------------------------------------------------------------
 
         //Inicio de Programación del tercer programa-----------------------------------------------------------------------------

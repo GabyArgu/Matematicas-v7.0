@@ -153,6 +153,16 @@ namespace Matemáticas_v7._0.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pan6 {
+            get {
+                object obj = ResourceManager.GetObject("pan6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pato {
             get {
                 object obj = ResourceManager.GetObject("pato", resourceCulture);

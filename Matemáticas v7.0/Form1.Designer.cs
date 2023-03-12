@@ -60,6 +60,9 @@
             btnLimpiar3 = new Button();
             tabPage5 = new TabPage();
             tabPage6 = new TabPage();
+            home6 = new Panel();
+            btnLimpiar5 = new Button();
+            btnCalcular5 = new Button();
             txtboxAbogado = new TextBox();
             txtboxHijo2 = new TextBox();
             txtboxHijo3 = new TextBox();
@@ -80,8 +83,6 @@
             btn3 = new Button();
             btn2 = new Button();
             btnpato = new PictureBox();
-            btnCalcular5 = new Button();
-            btnLimpiar5 = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -558,6 +559,9 @@
             // 
             // tabPage6
             // 
+            tabPage6.BackgroundImage = Properties.Resources.pan6;
+            tabPage6.BackgroundImageLayout = ImageLayout.Stretch;
+            tabPage6.Controls.Add(home6);
             tabPage6.Controls.Add(btnLimpiar5);
             tabPage6.Controls.Add(btnCalcular5);
             tabPage6.Controls.Add(txtboxAbogado);
@@ -573,13 +577,65 @@
             tabPage6.Text = "6";
             tabPage6.UseVisualStyleBackColor = true;
             // 
+            // home6
+            // 
+            home6.BackgroundImage = (Image)resources.GetObject("home6.BackgroundImage");
+            home6.BackgroundImageLayout = ImageLayout.Stretch;
+            home6.Location = new Point(883, 13);
+            home6.MaximumSize = new Size(32, 32);
+            home6.MinimumSize = new Size(32, 32);
+            home6.Name = "home6";
+            home6.Size = new Size(32, 32);
+            home6.TabIndex = 33;
+            home6.Click += home6_Click;
+            // 
+            // btnLimpiar5
+            // 
+            btnLimpiar5.BackColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar5.BackgroundImageLayout = ImageLayout.Center;
+            btnLimpiar5.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar5.FlatAppearance.BorderSize = 0;
+            btnLimpiar5.FlatStyle = FlatStyle.Flat;
+            btnLimpiar5.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnLimpiar5.ForeColor = SystemColors.Control;
+            btnLimpiar5.Image = Properties.Resources.borrador;
+            btnLimpiar5.Location = new Point(673, 508);
+            btnLimpiar5.Margin = new Padding(0);
+            btnLimpiar5.MaximumSize = new Size(123, 69);
+            btnLimpiar5.MinimumSize = new Size(123, 69);
+            btnLimpiar5.Name = "btnLimpiar5";
+            btnLimpiar5.Size = new Size(123, 69);
+            btnLimpiar5.TabIndex = 32;
+            btnLimpiar5.UseVisualStyleBackColor = false;
+            // 
+            // btnCalcular5
+            // 
+            btnCalcular5.BackColor = Color.FromArgb(75, 101, 84);
+            btnCalcular5.BackgroundImageLayout = ImageLayout.Center;
+            btnCalcular5.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnCalcular5.FlatAppearance.BorderSize = 0;
+            btnCalcular5.FlatStyle = FlatStyle.Flat;
+            btnCalcular5.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCalcular5.ForeColor = SystemColors.Control;
+            btnCalcular5.Image = Properties.Resources.tizas;
+            btnCalcular5.Location = new Point(576, 544);
+            btnCalcular5.Margin = new Padding(0);
+            btnCalcular5.MaximumSize = new Size(79, 36);
+            btnCalcular5.MinimumSize = new Size(79, 36);
+            btnCalcular5.Name = "btnCalcular5";
+            btnCalcular5.Size = new Size(79, 36);
+            btnCalcular5.TabIndex = 31;
+            btnCalcular5.UseVisualStyleBackColor = false;
+            btnCalcular5.MouseLeave += btnCalcular5_MouseLeave;
+            btnCalcular5.MouseHover += btnCalcular5_MouseHover;
+            // 
             // txtboxAbogado
             // 
             txtboxAbogado.BackColor = Color.FromArgb(75, 101, 84);
             txtboxAbogado.BorderStyle = BorderStyle.None;
             txtboxAbogado.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxAbogado.ForeColor = Color.LightCyan;
-            txtboxAbogado.Location = new Point(740, 425);
+            txtboxAbogado.Location = new Point(637, 350);
             txtboxAbogado.Name = "txtboxAbogado";
             txtboxAbogado.Size = new Size(124, 45);
             txtboxAbogado.TabIndex = 30;
@@ -590,7 +646,7 @@
             txtboxHijo2.BorderStyle = BorderStyle.None;
             txtboxHijo2.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxHijo2.ForeColor = Color.LightCyan;
-            txtboxHijo2.Location = new Point(355, 425);
+            txtboxHijo2.Location = new Point(269, 423);
             txtboxHijo2.Name = "txtboxHijo2";
             txtboxHijo2.Size = new Size(124, 45);
             txtboxHijo2.TabIndex = 29;
@@ -601,7 +657,7 @@
             txtboxHijo3.BorderStyle = BorderStyle.None;
             txtboxHijo3.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxHijo3.ForeColor = Color.LightCyan;
-            txtboxHijo3.Location = new Point(548, 425);
+            txtboxHijo3.Location = new Point(269, 497);
             txtboxHijo3.Name = "txtboxHijo3";
             txtboxHijo3.Size = new Size(124, 45);
             txtboxHijo3.TabIndex = 29;
@@ -612,7 +668,7 @@
             txtboxHijo1.BorderStyle = BorderStyle.None;
             txtboxHijo1.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxHijo1.ForeColor = Color.LightCyan;
-            txtboxHijo1.Location = new Point(178, 425);
+            txtboxHijo1.Location = new Point(269, 349);
             txtboxHijo1.Name = "txtboxHijo1";
             txtboxHijo1.Size = new Size(124, 45);
             txtboxHijo1.TabIndex = 28;
@@ -623,7 +679,7 @@
             txtboxHerencia.BorderStyle = BorderStyle.None;
             txtboxHerencia.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxHerencia.ForeColor = Color.LightCyan;
-            txtboxHerencia.Location = new Point(178, 124);
+            txtboxHerencia.Location = new Point(336, 183);
             txtboxHerencia.Name = "txtboxHerencia";
             txtboxHerencia.Size = new Size(124, 45);
             txtboxHerencia.TabIndex = 21;
@@ -861,44 +917,6 @@
             btnpato.MouseLeave += pictureBox1_MouseLeave;
             btnpato.MouseHover += pictureBox1_MouseHover;
             // 
-            // btnCalcular5
-            // 
-            btnCalcular5.BackColor = Color.FromArgb(75, 101, 84);
-            btnCalcular5.BackgroundImageLayout = ImageLayout.Center;
-            btnCalcular5.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
-            btnCalcular5.FlatAppearance.BorderSize = 0;
-            btnCalcular5.FlatStyle = FlatStyle.Flat;
-            btnCalcular5.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            btnCalcular5.ForeColor = SystemColors.Control;
-            btnCalcular5.Image = Properties.Resources.tizas;
-            btnCalcular5.Location = new Point(637, 566);
-            btnCalcular5.Margin = new Padding(0);
-            btnCalcular5.MaximumSize = new Size(79, 36);
-            btnCalcular5.MinimumSize = new Size(79, 36);
-            btnCalcular5.Name = "btnCalcular5";
-            btnCalcular5.Size = new Size(79, 36);
-            btnCalcular5.TabIndex = 31;
-            btnCalcular5.UseVisualStyleBackColor = false;
-            // 
-            // btnLimpiar5
-            // 
-            btnLimpiar5.BackColor = Color.FromArgb(75, 101, 84);
-            btnLimpiar5.BackgroundImageLayout = ImageLayout.Center;
-            btnLimpiar5.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
-            btnLimpiar5.FlatAppearance.BorderSize = 0;
-            btnLimpiar5.FlatStyle = FlatStyle.Flat;
-            btnLimpiar5.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            btnLimpiar5.ForeColor = SystemColors.Control;
-            btnLimpiar5.Image = Properties.Resources.borrador;
-            btnLimpiar5.Location = new Point(740, 533);
-            btnLimpiar5.Margin = new Padding(0);
-            btnLimpiar5.MaximumSize = new Size(123, 69);
-            btnLimpiar5.MinimumSize = new Size(123, 69);
-            btnLimpiar5.Name = "btnLimpiar5";
-            btnLimpiar5.Size = new Size(123, 69);
-            btnLimpiar5.TabIndex = 32;
-            btnLimpiar5.UseVisualStyleBackColor = false;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -988,5 +1006,6 @@
         private TextBox txtboxAbogado;
         private Button btnCalcular5;
         private Button btnLimpiar5;
+        private Panel home6;
     }
 }
