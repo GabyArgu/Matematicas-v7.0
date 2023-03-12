@@ -601,7 +601,6 @@ namespace Matemáticas_v7._0
         }
 
 
-
         //Fin de Programación del segundo programa-----------------------------------------------------------------------------
 
         //Inicio de Programación del tercer programa-----------------------------------------------------------------------------
