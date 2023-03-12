@@ -590,6 +590,16 @@ namespace Matemáticas_v7._0
             btnCalcular5.Image = global::Matemáticas_v7._0.Properties.Resources.tizas;
         }
 
+        private void btnLimpiar5_MouseHover(object sender, EventArgs e)
+        {
+            btnLimpiar5.Image = global::Matemáticas_v7._0.Properties.Resources.borrador2;
+        }
+
+        private void btnLimpiar5_MouseLeave(object sender, EventArgs e)
+        {
+            btnLimpiar5.Image = global::Matemáticas_v7._0.Properties.Resources.borrador;
+        }
+
 
 
         //Fin de Programación del segundo programa-----------------------------------------------------------------------------

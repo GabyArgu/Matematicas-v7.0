@@ -607,6 +607,8 @@
             btnLimpiar5.Size = new Size(123, 69);
             btnLimpiar5.TabIndex = 32;
             btnLimpiar5.UseVisualStyleBackColor = false;
+            btnLimpiar5.MouseLeave += btnLimpiar5_MouseLeave;
+            btnLimpiar5.MouseHover += btnLimpiar5_MouseHover;
             // 
             // btnCalcular5
             // 
