@@ -607,6 +607,7 @@
             btnLimpiar5.Size = new Size(123, 69);
             btnLimpiar5.TabIndex = 32;
             btnLimpiar5.UseVisualStyleBackColor = false;
+            btnLimpiar5.Click += btnLimpiar5_Click;
             btnLimpiar5.MouseLeave += btnLimpiar5_MouseLeave;
             btnLimpiar5.MouseHover += btnLimpiar5_MouseHover;
             // 
@@ -628,6 +629,7 @@
             btnCalcular5.Size = new Size(79, 36);
             btnCalcular5.TabIndex = 31;
             btnCalcular5.UseVisualStyleBackColor = false;
+            btnCalcular5.Click += btnCalcular5_Click;
             btnCalcular5.MouseLeave += btnCalcular5_MouseLeave;
             btnCalcular5.MouseHover += btnCalcular5_MouseHover;
             // 
@@ -641,6 +643,7 @@
             txtboxAbogado.Name = "txtboxAbogado";
             txtboxAbogado.Size = new Size(124, 45);
             txtboxAbogado.TabIndex = 30;
+            txtboxAbogado.KeyPress += txtX1_KeyPress;
             // 
             // txtboxHijo2
             // 
@@ -652,6 +655,7 @@
             txtboxHijo2.Name = "txtboxHijo2";
             txtboxHijo2.Size = new Size(124, 45);
             txtboxHijo2.TabIndex = 29;
+            txtboxHijo2.KeyPress += txtX1_KeyPress;
             // 
             // txtboxHijo3
             // 
@@ -663,6 +667,7 @@
             txtboxHijo3.Name = "txtboxHijo3";
             txtboxHijo3.Size = new Size(124, 45);
             txtboxHijo3.TabIndex = 29;
+            txtboxHijo3.KeyPress += txtX1_KeyPress;
             // 
             // txtboxHijo1
             // 
@@ -674,6 +679,7 @@
             txtboxHijo1.Name = "txtboxHijo1";
             txtboxHijo1.Size = new Size(124, 45);
             txtboxHijo1.TabIndex = 28;
+            txtboxHijo1.KeyPress += txtX1_KeyPress;
             // 
             // txtboxHerencia
             // 
@@ -681,10 +687,11 @@
             txtboxHerencia.BorderStyle = BorderStyle.None;
             txtboxHerencia.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxHerencia.ForeColor = Color.LightCyan;
-            txtboxHerencia.Location = new Point(336, 183);
+            txtboxHerencia.Location = new Point(371, 184);
             txtboxHerencia.Name = "txtboxHerencia";
             txtboxHerencia.Size = new Size(124, 45);
             txtboxHerencia.TabIndex = 21;
+            txtboxHerencia.KeyPress += txtA_KeyPress;
             // 
             // tabPage7
             // 

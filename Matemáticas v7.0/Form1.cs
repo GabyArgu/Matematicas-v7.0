@@ -559,6 +559,10 @@ namespace Matemáticas_v7._0
             btn8.Font = new System.Drawing.Font(btn1.Font, FontStyle.Regular);
         }
 
+        //Fin de Programación del tercer programa-----------------------------------------------------------------------------
+
+        //Inicio de Programación del quinto programa-----------------------------------------------------------------------------
+
         private void home6_Click(object sender, EventArgs e)
         {
             // Se muestra el panel 0 de tabControl
@@ -600,10 +604,81 @@ namespace Matemáticas_v7._0
             btnLimpiar5.Image = global::Matemáticas_v7._0.Properties.Resources.borrador;
         }
 
+        private void btnCalcular5_Click(object sender, EventArgs e)
+        {
+            //Validacion de no dejar espacios
+            if (txtboxHerencia.Text == "")
+            {
+                MessageBox.Show(" Favor ingresar el valor de A ", "Error");
+                txtboxHerencia.Focus();
+                return;
+            }
 
-        //Fin de Programación del segundo programa-----------------------------------------------------------------------------
+            // Declaracion de variables
+            double x, primerh, segundoh, tercerh, abogado1, abogado2, abogado3, abogadoT, terceraparte;
 
-        //Inicio de Programación del tercer programa-----------------------------------------------------------------------------
+            //Inicializacion de variables
+            abogado1 = 0;
+            abogado2 = 0;
+            abogado3 = 0;
+            abogadoT = 0;
+            terceraparte = 0;
 
+            // Entrada de datos
+            x = Double.Parse(txtboxHerencia.Text);
+
+            // Proceso de los datos
+            terceraparte = x / 3;
+            primerh = x / 3;
+            if (primerh < terceraparte)
+            {
+                abogado1 = primerh * 0.03;
+            }
+            else
+            {
+                abogado1 = primerh * 0.05;
+            }
+            segundoh = (4 * x) / 9;
+            if (segundoh < terceraparte)
+            {
+                abogado2 = segundoh * 0.03;
+            }
+            else
+            {
+                abogado2 = segundoh * 0.05;
+            }
+            tercerh = (2 * x) / 9;
+            if (tercerh < terceraparte)
+            {
+                abogado3 = tercerh * 0.03;
+            }
+            else
+            {
+                abogado3 = tercerh * 0.05;
+            }
+
+            abogadoT = abogado1 + abogado2 + abogado3;
+
+            // Salida de los datos
+            txtboxHijo1.Text = " $ " + (Math.Round(primerh, 2)).ToString();
+            txtboxHijo2.Text = " $ " + (Math.Round(segundoh, 2)).ToString();
+            txtboxHijo3.Text = " $ " + (Math.Round(tercerh, 2)).ToString();
+            txtboxAbogado.Text = " $ " + (Math.Round(abogadoT, 2)).ToString();
+
+        }
+
+        private void btnLimpiar5_Click(object sender, EventArgs e)
+        {
+            //Se limpian todos los campos
+            txtboxHerencia.Text = "";
+            txtboxHijo1.Text = "";
+            txtboxHijo2.Text = "";
+            txtboxHijo3.Text = "";
+            txtboxAbogado.Text = "";
+            txtboxHerencia.Focus();
+        }
+
+
+        //Fin de Programación del quinto programa-----------------------------------------------------------------------------
     }
 }
