@@ -121,11 +121,20 @@
   <data name="probar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\probar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tizas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tizas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="inicial" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\inicial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tiza2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tiza21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pan4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pan4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pan6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pan6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pan2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pan2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,8 +142,8 @@
   <data name="patocre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\patocre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tizas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tizas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="general1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\general1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="creditos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\creditos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,8 +151,8 @@
   <data name="pan3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pan3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="general1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\general1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pan8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pan8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="borrador" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\borrador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,7 +169,10 @@
   <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pan6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pan6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pan7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pan7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pan5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pan5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

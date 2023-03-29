@@ -43,6 +43,9 @@
             txtB = new TextBox();
             txtA = new TextBox();
             tabPage3 = new TabPage();
+            txtAnguB = new TextBox();
+            txtLadoB = new TextBox();
+            txtLadoA = new TextBox();
             btnCalcular2 = new Button();
             btnLimpiar2 = new Button();
             home2 = new Panel();
@@ -59,8 +62,18 @@
             btnCalcular3 = new Button();
             btnLimpiar3 = new Button();
             tabPage5 = new TabPage();
+            txtDin6 = new TextBox();
+            txtDin5 = new TextBox();
+            txtDin4 = new TextBox();
+            txtDin3 = new TextBox();
+            txtDin2 = new TextBox();
+            txtDin1 = new TextBox();
+            txtDinero = new TextBox();
+            btnHome4 = new Panel();
+            btnLimpiar4 = new Button();
+            btnCalcular4 = new Button();
             tabPage6 = new TabPage();
-            home6 = new Panel();
+            home5 = new Panel();
             btnLimpiar5 = new Button();
             btnCalcular5 = new Button();
             txtboxAbogado = new TextBox();
@@ -69,10 +82,30 @@
             txtboxHijo1 = new TextBox();
             txtboxHerencia = new TextBox();
             tabPage7 = new TabPage();
+            txtMesA = new TextBox();
+            txtDiasT = new TextBox();
+            btnLimpiar7 = new Button();
+            btnCalcular7 = new Button();
+            home7 = new Panel();
             tabPage8 = new TabPage();
+            txtNum3 = new TextBox();
+            txtNum2 = new TextBox();
+            home8 = new Panel();
+            txtNum1 = new TextBox();
+            txtMedio = new TextBox();
+            txtMayor = new TextBox();
+            txtMenor = new TextBox();
+            btnLimpiar8 = new Button();
+            btnCalcular8 = new Button();
             tabPage9 = new TabPage();
             home9 = new Panel();
             tabPage10 = new TabPage();
+            btnLimpiar6 = new Button();
+            btnCalcular6 = new Button();
+            txtMcm = new TextBox();
+            txtNumero2 = new TextBox();
+            panel1 = new Panel();
+            txtNumero1 = new TextBox();
             button1 = new Button();
             panel2 = new Panel();
             btn8 = new Button();
@@ -83,13 +116,19 @@
             btn3 = new Button();
             btn2 = new Button();
             btnpato = new PictureBox();
+            txtAnguC = new TextBox();
+            txtLadoC = new TextBox();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
             tabPage3.SuspendLayout();
             tabPage4.SuspendLayout();
+            tabPage5.SuspendLayout();
             tabPage6.SuspendLayout();
+            tabPage7.SuspendLayout();
+            tabPage8.SuspendLayout();
             tabPage9.SuspendLayout();
+            tabPage10.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)btnpato).BeginInit();
             SuspendLayout();
@@ -223,11 +262,11 @@
             // 
             txtX2.BackColor = Color.FromArgb(75, 101, 84);
             txtX2.BorderStyle = BorderStyle.None;
-            txtX2.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtX2.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
             txtX2.ForeColor = Color.LightCyan;
             txtX2.Location = new Point(218, 457);
             txtX2.Name = "txtX2";
-            txtX2.Size = new Size(519, 45);
+            txtX2.Size = new Size(519, 51);
             txtX2.TabIndex = 12;
             txtX2.KeyPress += txtX2_KeyPress;
             // 
@@ -235,11 +274,11 @@
             // 
             txtX1.BackColor = Color.FromArgb(75, 101, 84);
             txtX1.BorderStyle = BorderStyle.None;
-            txtX1.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtX1.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
             txtX1.ForeColor = Color.LightCyan;
             txtX1.Location = new Point(218, 388);
             txtX1.Name = "txtX1";
-            txtX1.Size = new Size(519, 45);
+            txtX1.Size = new Size(519, 51);
             txtX1.TabIndex = 11;
             txtX1.KeyPress += txtX1_KeyPress;
             // 
@@ -269,11 +308,11 @@
             // 
             txtC.BackColor = Color.FromArgb(75, 101, 84);
             txtC.BorderStyle = BorderStyle.None;
-            txtC.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtC.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
             txtC.ForeColor = Color.LightCyan;
             txtC.Location = new Point(205, 275);
             txtC.Name = "txtC";
-            txtC.Size = new Size(139, 45);
+            txtC.Size = new Size(139, 56);
             txtC.TabIndex = 2;
             txtC.KeyPress += txtC_KeyPress;
             // 
@@ -281,11 +320,11 @@
             // 
             txtB.BackColor = Color.FromArgb(75, 101, 84);
             txtB.BorderStyle = BorderStyle.None;
-            txtB.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtB.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
             txtB.ForeColor = Color.LightCyan;
             txtB.Location = new Point(205, 222);
             txtB.Name = "txtB";
-            txtB.Size = new Size(139, 45);
+            txtB.Size = new Size(139, 56);
             txtB.TabIndex = 1;
             txtB.KeyPress += txtB_KeyPress;
             // 
@@ -293,11 +332,11 @@
             // 
             txtA.BackColor = Color.FromArgb(75, 101, 84);
             txtA.BorderStyle = BorderStyle.None;
-            txtA.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtA.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
             txtA.ForeColor = Color.LightCyan;
             txtA.Location = new Point(205, 169);
             txtA.Name = "txtA";
-            txtA.Size = new Size(139, 45);
+            txtA.Size = new Size(139, 56);
             txtA.TabIndex = 0;
             txtA.KeyPress += txtA_KeyPress;
             // 
@@ -305,6 +344,11 @@
             // 
             tabPage3.BackgroundImage = (Image)resources.GetObject("tabPage3.BackgroundImage");
             tabPage3.BackgroundImageLayout = ImageLayout.Stretch;
+            tabPage3.Controls.Add(txtLadoC);
+            tabPage3.Controls.Add(txtAnguC);
+            tabPage3.Controls.Add(txtAnguB);
+            tabPage3.Controls.Add(txtLadoB);
+            tabPage3.Controls.Add(txtLadoA);
             tabPage3.Controls.Add(btnCalcular2);
             tabPage3.Controls.Add(btnLimpiar2);
             tabPage3.Controls.Add(home2);
@@ -315,6 +359,42 @@
             tabPage3.TabIndex = 2;
             tabPage3.Text = "3";
             tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // txtAnguB
+            // 
+            txtAnguB.BackColor = Color.FromArgb(75, 101, 84);
+            txtAnguB.BorderStyle = BorderStyle.None;
+            txtAnguB.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            txtAnguB.ForeColor = Color.LightCyan;
+            txtAnguB.Location = new Point(338, 388);
+            txtAnguB.Name = "txtAnguB";
+            txtAnguB.Size = new Size(180, 51);
+            txtAnguB.TabIndex = 30;
+            txtAnguB.KeyPress += txtX2_KeyPress;
+            // 
+            // txtLadoB
+            // 
+            txtLadoB.BackColor = Color.FromArgb(75, 101, 84);
+            txtLadoB.BorderStyle = BorderStyle.None;
+            txtLadoB.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
+            txtLadoB.ForeColor = Color.LightCyan;
+            txtLadoB.Location = new Point(212, 219);
+            txtLadoB.Name = "txtLadoB";
+            txtLadoB.Size = new Size(177, 56);
+            txtLadoB.TabIndex = 29;
+            txtLadoB.KeyPress += txtB_KeyPress;
+            // 
+            // txtLadoA
+            // 
+            txtLadoA.BackColor = Color.FromArgb(75, 101, 84);
+            txtLadoA.BorderStyle = BorderStyle.None;
+            txtLadoA.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
+            txtLadoA.ForeColor = Color.LightCyan;
+            txtLadoA.Location = new Point(212, 166);
+            txtLadoA.Name = "txtLadoA";
+            txtLadoA.Size = new Size(177, 56);
+            txtLadoA.TabIndex = 28;
+            txtLadoA.KeyPress += txtB_KeyPress;
             // 
             // btnCalcular2
             // 
@@ -399,11 +479,11 @@
             // 
             txtboxY.BackColor = Color.FromArgb(75, 101, 84);
             txtboxY.BorderStyle = BorderStyle.None;
-            txtboxY.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxY.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxY.ForeColor = Color.LightCyan;
             txtboxY.Location = new Point(298, 497);
             txtboxY.Name = "txtboxY";
-            txtboxY.Size = new Size(124, 45);
+            txtboxY.Size = new Size(124, 51);
             txtboxY.TabIndex = 28;
             txtboxY.KeyPress += txtboxResultados_KeyPress;
             // 
@@ -411,11 +491,11 @@
             // 
             txtboxX.BackColor = Color.FromArgb(75, 101, 84);
             txtboxX.BorderStyle = BorderStyle.None;
-            txtboxX.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxX.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxX.ForeColor = Color.LightCyan;
             txtboxX.Location = new Point(298, 425);
             txtboxX.Name = "txtboxX";
-            txtboxX.Size = new Size(124, 45);
+            txtboxX.Size = new Size(124, 51);
             txtboxX.TabIndex = 27;
             txtboxX.KeyPress += txtboxResultados_KeyPress;
             // 
@@ -435,11 +515,11 @@
             // 
             txtboxF.BackColor = Color.FromArgb(75, 101, 84);
             txtboxF.BorderStyle = BorderStyle.None;
-            txtboxF.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxF.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxF.ForeColor = Color.LightCyan;
             txtboxF.Location = new Point(391, 290);
             txtboxF.Name = "txtboxF";
-            txtboxF.Size = new Size(124, 45);
+            txtboxF.Size = new Size(124, 56);
             txtboxF.TabIndex = 25;
             txtboxF.KeyPress += txtboxDatos_KeyPress;
             // 
@@ -447,11 +527,11 @@
             // 
             txtboxD.BackColor = Color.FromArgb(75, 101, 84);
             txtboxD.BorderStyle = BorderStyle.None;
-            txtboxD.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxD.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxD.ForeColor = Color.LightCyan;
             txtboxD.Location = new Point(391, 237);
             txtboxD.Name = "txtboxD";
-            txtboxD.Size = new Size(124, 45);
+            txtboxD.Size = new Size(124, 56);
             txtboxD.TabIndex = 24;
             txtboxD.KeyPress += txtboxDatos_KeyPress;
             // 
@@ -459,11 +539,11 @@
             // 
             txtboxB.BackColor = Color.FromArgb(75, 101, 84);
             txtboxB.BorderStyle = BorderStyle.None;
-            txtboxB.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxB.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxB.ForeColor = Color.LightCyan;
             txtboxB.Location = new Point(391, 185);
             txtboxB.Name = "txtboxB";
-            txtboxB.Size = new Size(124, 45);
+            txtboxB.Size = new Size(124, 56);
             txtboxB.TabIndex = 23;
             txtboxB.KeyPress += txtboxDatos_KeyPress;
             // 
@@ -471,11 +551,11 @@
             // 
             txtboxE.BackColor = Color.FromArgb(75, 101, 84);
             txtboxE.BorderStyle = BorderStyle.None;
-            txtboxE.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxE.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxE.ForeColor = Color.LightCyan;
             txtboxE.Location = new Point(201, 289);
             txtboxE.Name = "txtboxE";
-            txtboxE.Size = new Size(124, 45);
+            txtboxE.Size = new Size(124, 56);
             txtboxE.TabIndex = 22;
             txtboxE.KeyPress += txtboxDatos_KeyPress;
             // 
@@ -483,11 +563,11 @@
             // 
             txtboxC.BackColor = Color.FromArgb(75, 101, 84);
             txtboxC.BorderStyle = BorderStyle.None;
-            txtboxC.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxC.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxC.ForeColor = Color.LightCyan;
             txtboxC.Location = new Point(201, 236);
             txtboxC.Name = "txtboxC";
-            txtboxC.Size = new Size(124, 45);
+            txtboxC.Size = new Size(124, 56);
             txtboxC.TabIndex = 21;
             txtboxC.KeyPress += txtboxDatos_KeyPress;
             // 
@@ -495,11 +575,11 @@
             // 
             txtboxA.BackColor = Color.FromArgb(75, 101, 84);
             txtboxA.BorderStyle = BorderStyle.None;
-            txtboxA.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxA.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxA.ForeColor = Color.LightCyan;
             txtboxA.Location = new Point(201, 184);
             txtboxA.Name = "txtboxA";
-            txtboxA.Size = new Size(124, 45);
+            txtboxA.Size = new Size(124, 56);
             txtboxA.TabIndex = 20;
             txtboxA.KeyPress += txtboxDatos_KeyPress;
             // 
@@ -549,6 +629,18 @@
             // 
             // tabPage5
             // 
+            tabPage5.BackgroundImage = Properties.Resources.pan4;
+            tabPage5.BackgroundImageLayout = ImageLayout.Stretch;
+            tabPage5.Controls.Add(txtDin6);
+            tabPage5.Controls.Add(txtDin5);
+            tabPage5.Controls.Add(txtDin4);
+            tabPage5.Controls.Add(txtDin3);
+            tabPage5.Controls.Add(txtDin2);
+            tabPage5.Controls.Add(txtDin1);
+            tabPage5.Controls.Add(txtDinero);
+            tabPage5.Controls.Add(btnHome4);
+            tabPage5.Controls.Add(btnLimpiar4);
+            tabPage5.Controls.Add(btnCalcular4);
             tabPage5.Location = new Point(16, 4);
             tabPage5.Margin = new Padding(0);
             tabPage5.Name = "tabPage5";
@@ -557,11 +649,150 @@
             tabPage5.Text = "5";
             tabPage5.UseVisualStyleBackColor = true;
             // 
+            // txtDin6
+            // 
+            txtDin6.BackColor = Color.FromArgb(75, 101, 84);
+            txtDin6.BorderStyle = BorderStyle.None;
+            txtDin6.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            txtDin6.ForeColor = Color.LightCyan;
+            txtDin6.Location = new Point(705, 422);
+            txtDin6.Name = "txtDin6";
+            txtDin6.Size = new Size(70, 51);
+            txtDin6.TabIndex = 50;
+            txtDin6.KeyPress += txtX1_KeyPress;
+            // 
+            // txtDin5
+            // 
+            txtDin5.BackColor = Color.FromArgb(75, 101, 84);
+            txtDin5.BorderStyle = BorderStyle.None;
+            txtDin5.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            txtDin5.ForeColor = Color.LightCyan;
+            txtDin5.Location = new Point(466, 422);
+            txtDin5.Name = "txtDin5";
+            txtDin5.Size = new Size(70, 51);
+            txtDin5.TabIndex = 49;
+            txtDin5.KeyPress += txtX1_KeyPress;
+            // 
+            // txtDin4
+            // 
+            txtDin4.BackColor = Color.FromArgb(75, 101, 84);
+            txtDin4.BorderStyle = BorderStyle.None;
+            txtDin4.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            txtDin4.ForeColor = Color.LightCyan;
+            txtDin4.Location = new Point(250, 423);
+            txtDin4.Name = "txtDin4";
+            txtDin4.Size = new Size(70, 51);
+            txtDin4.TabIndex = 48;
+            txtDin4.KeyPress += txtX1_KeyPress;
+            // 
+            // txtDin3
+            // 
+            txtDin3.BackColor = Color.FromArgb(75, 101, 84);
+            txtDin3.BorderStyle = BorderStyle.None;
+            txtDin3.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            txtDin3.ForeColor = Color.LightCyan;
+            txtDin3.Location = new Point(685, 343);
+            txtDin3.Name = "txtDin3";
+            txtDin3.Size = new Size(70, 51);
+            txtDin3.TabIndex = 47;
+            txtDin3.KeyPress += txtX1_KeyPress;
+            // 
+            // txtDin2
+            // 
+            txtDin2.BackColor = Color.FromArgb(75, 101, 84);
+            txtDin2.BorderStyle = BorderStyle.None;
+            txtDin2.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            txtDin2.ForeColor = Color.LightCyan;
+            txtDin2.Location = new Point(447, 343);
+            txtDin2.Name = "txtDin2";
+            txtDin2.Size = new Size(70, 51);
+            txtDin2.TabIndex = 46;
+            txtDin2.KeyPress += txtX1_KeyPress;
+            // 
+            // txtDin1
+            // 
+            txtDin1.BackColor = Color.FromArgb(75, 101, 84);
+            txtDin1.BorderStyle = BorderStyle.None;
+            txtDin1.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            txtDin1.ForeColor = Color.LightCyan;
+            txtDin1.Location = new Point(218, 343);
+            txtDin1.Name = "txtDin1";
+            txtDin1.Size = new Size(70, 51);
+            txtDin1.TabIndex = 45;
+            txtDin1.KeyPress += txtX1_KeyPress;
+            // 
+            // txtDinero
+            // 
+            txtDinero.BackColor = Color.FromArgb(75, 101, 84);
+            txtDinero.BorderStyle = BorderStyle.None;
+            txtDinero.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
+            txtDinero.ForeColor = Color.LightCyan;
+            txtDinero.Location = new Point(341, 201);
+            txtDinero.Name = "txtDinero";
+            txtDinero.Size = new Size(248, 56);
+            txtDinero.TabIndex = 36;
+            // 
+            // btnHome4
+            // 
+            btnHome4.BackgroundImage = Properties.Resources.casa;
+            btnHome4.BackgroundImageLayout = ImageLayout.Zoom;
+            btnHome4.Location = new Point(883, 13);
+            btnHome4.MaximumSize = new Size(32, 32);
+            btnHome4.MinimumSize = new Size(32, 32);
+            btnHome4.Name = "btnHome4";
+            btnHome4.Size = new Size(32, 32);
+            btnHome4.TabIndex = 35;
+            btnHome4.Click += btnHome4_Click;
+            // 
+            // btnLimpiar4
+            // 
+            btnLimpiar4.BackColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar4.BackgroundImageLayout = ImageLayout.Center;
+            btnLimpiar4.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar4.FlatAppearance.BorderSize = 0;
+            btnLimpiar4.FlatStyle = FlatStyle.Flat;
+            btnLimpiar4.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnLimpiar4.ForeColor = SystemColors.Control;
+            btnLimpiar4.Image = Properties.Resources.borrador;
+            btnLimpiar4.Location = new Point(673, 508);
+            btnLimpiar4.Margin = new Padding(0);
+            btnLimpiar4.MaximumSize = new Size(123, 69);
+            btnLimpiar4.MinimumSize = new Size(123, 69);
+            btnLimpiar4.Name = "btnLimpiar4";
+            btnLimpiar4.Size = new Size(123, 69);
+            btnLimpiar4.TabIndex = 34;
+            btnLimpiar4.UseVisualStyleBackColor = false;
+            btnLimpiar4.Click += btnLimpiar4_Click;
+            btnLimpiar4.MouseLeave += btnLimpiar4_MouseLeave;
+            btnLimpiar4.MouseHover += btnLimpiar4_MouseHover;
+            // 
+            // btnCalcular4
+            // 
+            btnCalcular4.BackColor = Color.FromArgb(75, 101, 84);
+            btnCalcular4.BackgroundImageLayout = ImageLayout.Center;
+            btnCalcular4.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnCalcular4.FlatAppearance.BorderSize = 0;
+            btnCalcular4.FlatStyle = FlatStyle.Flat;
+            btnCalcular4.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCalcular4.ForeColor = SystemColors.Control;
+            btnCalcular4.Image = Properties.Resources.tizas;
+            btnCalcular4.Location = new Point(576, 544);
+            btnCalcular4.Margin = new Padding(0);
+            btnCalcular4.MaximumSize = new Size(79, 36);
+            btnCalcular4.MinimumSize = new Size(79, 36);
+            btnCalcular4.Name = "btnCalcular4";
+            btnCalcular4.Size = new Size(79, 36);
+            btnCalcular4.TabIndex = 33;
+            btnCalcular4.UseVisualStyleBackColor = false;
+            btnCalcular4.Click += btnCalcular4_Click;
+            btnCalcular4.MouseLeave += btnCalcular4_MouseLeave;
+            btnCalcular4.MouseHover += btnCalcular4_MouseHover;
+            // 
             // tabPage6
             // 
             tabPage6.BackgroundImage = Properties.Resources.pan6;
             tabPage6.BackgroundImageLayout = ImageLayout.Stretch;
-            tabPage6.Controls.Add(home6);
+            tabPage6.Controls.Add(home5);
             tabPage6.Controls.Add(btnLimpiar5);
             tabPage6.Controls.Add(btnCalcular5);
             tabPage6.Controls.Add(txtboxAbogado);
@@ -577,17 +808,17 @@
             tabPage6.Text = "6";
             tabPage6.UseVisualStyleBackColor = true;
             // 
-            // home6
+            // home5
             // 
-            home6.BackgroundImage = (Image)resources.GetObject("home6.BackgroundImage");
-            home6.BackgroundImageLayout = ImageLayout.Stretch;
-            home6.Location = new Point(883, 13);
-            home6.MaximumSize = new Size(32, 32);
-            home6.MinimumSize = new Size(32, 32);
-            home6.Name = "home6";
-            home6.Size = new Size(32, 32);
-            home6.TabIndex = 33;
-            home6.Click += home6_Click;
+            home5.BackgroundImage = (Image)resources.GetObject("home5.BackgroundImage");
+            home5.BackgroundImageLayout = ImageLayout.Stretch;
+            home5.Location = new Point(883, 13);
+            home5.MaximumSize = new Size(32, 32);
+            home5.MinimumSize = new Size(32, 32);
+            home5.Name = "home5";
+            home5.Size = new Size(32, 32);
+            home5.TabIndex = 33;
+            home5.Click += home5_Click;
             // 
             // btnLimpiar5
             // 
@@ -637,11 +868,11 @@
             // 
             txtboxAbogado.BackColor = Color.FromArgb(75, 101, 84);
             txtboxAbogado.BorderStyle = BorderStyle.None;
-            txtboxAbogado.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxAbogado.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxAbogado.ForeColor = Color.LightCyan;
             txtboxAbogado.Location = new Point(637, 350);
             txtboxAbogado.Name = "txtboxAbogado";
-            txtboxAbogado.Size = new Size(124, 45);
+            txtboxAbogado.Size = new Size(159, 51);
             txtboxAbogado.TabIndex = 30;
             txtboxAbogado.KeyPress += txtX1_KeyPress;
             // 
@@ -649,11 +880,11 @@
             // 
             txtboxHijo2.BackColor = Color.FromArgb(75, 101, 84);
             txtboxHijo2.BorderStyle = BorderStyle.None;
-            txtboxHijo2.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxHijo2.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxHijo2.ForeColor = Color.LightCyan;
             txtboxHijo2.Location = new Point(269, 423);
             txtboxHijo2.Name = "txtboxHijo2";
-            txtboxHijo2.Size = new Size(124, 45);
+            txtboxHijo2.Size = new Size(168, 51);
             txtboxHijo2.TabIndex = 29;
             txtboxHijo2.KeyPress += txtX1_KeyPress;
             // 
@@ -661,11 +892,11 @@
             // 
             txtboxHijo3.BackColor = Color.FromArgb(75, 101, 84);
             txtboxHijo3.BorderStyle = BorderStyle.None;
-            txtboxHijo3.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxHijo3.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxHijo3.ForeColor = Color.LightCyan;
             txtboxHijo3.Location = new Point(269, 497);
             txtboxHijo3.Name = "txtboxHijo3";
-            txtboxHijo3.Size = new Size(124, 45);
+            txtboxHijo3.Size = new Size(168, 51);
             txtboxHijo3.TabIndex = 29;
             txtboxHijo3.KeyPress += txtX1_KeyPress;
             // 
@@ -673,11 +904,11 @@
             // 
             txtboxHijo1.BackColor = Color.FromArgb(75, 101, 84);
             txtboxHijo1.BorderStyle = BorderStyle.None;
-            txtboxHijo1.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxHijo1.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxHijo1.ForeColor = Color.LightCyan;
             txtboxHijo1.Location = new Point(269, 349);
             txtboxHijo1.Name = "txtboxHijo1";
-            txtboxHijo1.Size = new Size(124, 45);
+            txtboxHijo1.Size = new Size(168, 51);
             txtboxHijo1.TabIndex = 28;
             txtboxHijo1.KeyPress += txtX1_KeyPress;
             // 
@@ -685,16 +916,23 @@
             // 
             txtboxHerencia.BackColor = Color.FromArgb(75, 101, 84);
             txtboxHerencia.BorderStyle = BorderStyle.None;
-            txtboxHerencia.Font = new Font("KG Ten Thousand Reasons", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtboxHerencia.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
             txtboxHerencia.ForeColor = Color.LightCyan;
             txtboxHerencia.Location = new Point(371, 184);
             txtboxHerencia.Name = "txtboxHerencia";
-            txtboxHerencia.Size = new Size(124, 45);
+            txtboxHerencia.Size = new Size(175, 56);
             txtboxHerencia.TabIndex = 21;
             txtboxHerencia.KeyPress += txtA_KeyPress;
             // 
             // tabPage7
             // 
+            tabPage7.BackgroundImage = Properties.Resources.pan7;
+            tabPage7.BackgroundImageLayout = ImageLayout.Stretch;
+            tabPage7.Controls.Add(txtMesA);
+            tabPage7.Controls.Add(txtDiasT);
+            tabPage7.Controls.Add(btnLimpiar7);
+            tabPage7.Controls.Add(btnCalcular7);
+            tabPage7.Controls.Add(home7);
             tabPage7.Location = new Point(16, 4);
             tabPage7.Margin = new Padding(0);
             tabPage7.Name = "tabPage7";
@@ -703,8 +941,100 @@
             tabPage7.Text = "7";
             tabPage7.UseVisualStyleBackColor = true;
             // 
+            // txtMesA
+            // 
+            txtMesA.BackColor = Color.FromArgb(75, 101, 84);
+            txtMesA.BorderStyle = BorderStyle.None;
+            txtMesA.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
+            txtMesA.ForeColor = Color.LightCyan;
+            txtMesA.Location = new Point(344, 378);
+            txtMesA.Name = "txtMesA";
+            txtMesA.Size = new Size(214, 56);
+            txtMesA.TabIndex = 38;
+            txtMesA.KeyPress += txtX2_KeyPress;
+            // 
+            // txtDiasT
+            // 
+            txtDiasT.BackColor = Color.FromArgb(75, 101, 84);
+            txtDiasT.BorderStyle = BorderStyle.None;
+            txtDiasT.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
+            txtDiasT.ForeColor = Color.LightCyan;
+            txtDiasT.Location = new Point(521, 213);
+            txtDiasT.MaxLength = 3;
+            txtDiasT.Name = "txtDiasT";
+            txtDiasT.Size = new Size(69, 56);
+            txtDiasT.TabIndex = 3;
+            txtDiasT.KeyPress += txtDiasT_KeyPress;
+            // 
+            // btnLimpiar7
+            // 
+            btnLimpiar7.BackColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar7.BackgroundImageLayout = ImageLayout.Center;
+            btnLimpiar7.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar7.FlatAppearance.BorderSize = 0;
+            btnLimpiar7.FlatStyle = FlatStyle.Flat;
+            btnLimpiar7.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnLimpiar7.ForeColor = SystemColors.Control;
+            btnLimpiar7.Image = Properties.Resources.borrador;
+            btnLimpiar7.Location = new Point(673, 508);
+            btnLimpiar7.Margin = new Padding(0);
+            btnLimpiar7.MaximumSize = new Size(123, 69);
+            btnLimpiar7.MinimumSize = new Size(123, 69);
+            btnLimpiar7.Name = "btnLimpiar7";
+            btnLimpiar7.Size = new Size(123, 69);
+            btnLimpiar7.TabIndex = 36;
+            btnLimpiar7.UseVisualStyleBackColor = false;
+            btnLimpiar7.Click += btnLimpiar7_Click;
+            btnLimpiar7.MouseLeave += btnLimpiar7_MouseLeave;
+            btnLimpiar7.MouseHover += btnLimpiar7_MouseHover;
+            // 
+            // btnCalcular7
+            // 
+            btnCalcular7.BackColor = Color.FromArgb(75, 101, 84);
+            btnCalcular7.BackgroundImageLayout = ImageLayout.Center;
+            btnCalcular7.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnCalcular7.FlatAppearance.BorderSize = 0;
+            btnCalcular7.FlatStyle = FlatStyle.Flat;
+            btnCalcular7.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCalcular7.ForeColor = SystemColors.Control;
+            btnCalcular7.Image = Properties.Resources.tizas;
+            btnCalcular7.Location = new Point(576, 544);
+            btnCalcular7.Margin = new Padding(0);
+            btnCalcular7.MaximumSize = new Size(79, 36);
+            btnCalcular7.MinimumSize = new Size(79, 36);
+            btnCalcular7.Name = "btnCalcular7";
+            btnCalcular7.Size = new Size(79, 36);
+            btnCalcular7.TabIndex = 35;
+            btnCalcular7.UseVisualStyleBackColor = false;
+            btnCalcular7.Click += btnCalcular7_Click;
+            btnCalcular7.MouseLeave += btnCalcular7_MouseLeave;
+            btnCalcular7.MouseHover += btnCalcular7_MouseHover;
+            // 
+            // home7
+            // 
+            home7.BackgroundImage = (Image)resources.GetObject("home7.BackgroundImage");
+            home7.BackgroundImageLayout = ImageLayout.Stretch;
+            home7.Location = new Point(883, 13);
+            home7.MaximumSize = new Size(32, 32);
+            home7.MinimumSize = new Size(32, 32);
+            home7.Name = "home7";
+            home7.Size = new Size(32, 32);
+            home7.TabIndex = 34;
+            home7.Click += home7_Click;
+            // 
             // tabPage8
             // 
+            tabPage8.BackgroundImage = Properties.Resources.pan8;
+            tabPage8.BackgroundImageLayout = ImageLayout.Stretch;
+            tabPage8.Controls.Add(txtNum3);
+            tabPage8.Controls.Add(txtNum2);
+            tabPage8.Controls.Add(home8);
+            tabPage8.Controls.Add(txtNum1);
+            tabPage8.Controls.Add(txtMedio);
+            tabPage8.Controls.Add(txtMayor);
+            tabPage8.Controls.Add(txtMenor);
+            tabPage8.Controls.Add(btnLimpiar8);
+            tabPage8.Controls.Add(btnCalcular8);
             tabPage8.Location = new Point(16, 4);
             tabPage8.Margin = new Padding(0);
             tabPage8.Name = "tabPage8";
@@ -713,9 +1043,137 @@
             tabPage8.Text = "8";
             tabPage8.UseVisualStyleBackColor = true;
             // 
+            // txtNum3
+            // 
+            txtNum3.BackColor = Color.FromArgb(75, 101, 84);
+            txtNum3.BorderStyle = BorderStyle.None;
+            txtNum3.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
+            txtNum3.ForeColor = Color.LightCyan;
+            txtNum3.Location = new Point(305, 284);
+            txtNum3.Name = "txtNum3";
+            txtNum3.Size = new Size(175, 56);
+            txtNum3.TabIndex = 59;
+            txtNum3.KeyPress += txtC_KeyPress;
+            // 
+            // txtNum2
+            // 
+            txtNum2.BackColor = Color.FromArgb(75, 101, 84);
+            txtNum2.BorderStyle = BorderStyle.None;
+            txtNum2.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
+            txtNum2.ForeColor = Color.LightCyan;
+            txtNum2.Location = new Point(305, 228);
+            txtNum2.Name = "txtNum2";
+            txtNum2.Size = new Size(175, 56);
+            txtNum2.TabIndex = 58;
+            txtNum2.KeyPress += txtC_KeyPress;
+            // 
+            // home8
+            // 
+            home8.BackgroundImage = (Image)resources.GetObject("home8.BackgroundImage");
+            home8.BackgroundImageLayout = ImageLayout.Stretch;
+            home8.Location = new Point(883, 13);
+            home8.MaximumSize = new Size(32, 32);
+            home8.MinimumSize = new Size(32, 32);
+            home8.Name = "home8";
+            home8.Size = new Size(32, 32);
+            home8.TabIndex = 57;
+            home8.Click += home8_Click;
+            // 
+            // txtNum1
+            // 
+            txtNum1.BackColor = Color.FromArgb(75, 101, 84);
+            txtNum1.BorderStyle = BorderStyle.None;
+            txtNum1.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
+            txtNum1.ForeColor = Color.LightCyan;
+            txtNum1.Location = new Point(305, 172);
+            txtNum1.Name = "txtNum1";
+            txtNum1.Size = new Size(175, 56);
+            txtNum1.TabIndex = 56;
+            txtNum1.KeyPress += txtC_KeyPress;
+            // 
+            // txtMedio
+            // 
+            txtMedio.BackColor = Color.FromArgb(75, 101, 84);
+            txtMedio.BorderStyle = BorderStyle.None;
+            txtMedio.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            txtMedio.ForeColor = Color.LightCyan;
+            txtMedio.Location = new Point(305, 495);
+            txtMedio.Name = "txtMedio";
+            txtMedio.Size = new Size(138, 51);
+            txtMedio.TabIndex = 55;
+            txtMedio.KeyPress += txtX2_KeyPress;
+            // 
+            // txtMayor
+            // 
+            txtMayor.BackColor = Color.FromArgb(75, 101, 84);
+            txtMayor.BorderStyle = BorderStyle.None;
+            txtMayor.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            txtMayor.ForeColor = Color.LightCyan;
+            txtMayor.Location = new Point(635, 421);
+            txtMayor.Name = "txtMayor";
+            txtMayor.Size = new Size(138, 51);
+            txtMayor.TabIndex = 54;
+            txtMayor.KeyPress += txtX2_KeyPress;
+            // 
+            // txtMenor
+            // 
+            txtMenor.BackColor = Color.FromArgb(75, 101, 84);
+            txtMenor.BorderStyle = BorderStyle.None;
+            txtMenor.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            txtMenor.ForeColor = Color.LightCyan;
+            txtMenor.Location = new Point(305, 419);
+            txtMenor.Name = "txtMenor";
+            txtMenor.Size = new Size(138, 51);
+            txtMenor.TabIndex = 53;
+            txtMenor.KeyPress += txtX2_KeyPress;
+            // 
+            // btnLimpiar8
+            // 
+            btnLimpiar8.BackColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar8.BackgroundImageLayout = ImageLayout.Center;
+            btnLimpiar8.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar8.FlatAppearance.BorderSize = 0;
+            btnLimpiar8.FlatStyle = FlatStyle.Flat;
+            btnLimpiar8.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnLimpiar8.ForeColor = SystemColors.Control;
+            btnLimpiar8.Image = Properties.Resources.borrador;
+            btnLimpiar8.Location = new Point(673, 508);
+            btnLimpiar8.Margin = new Padding(0);
+            btnLimpiar8.MaximumSize = new Size(123, 69);
+            btnLimpiar8.MinimumSize = new Size(123, 69);
+            btnLimpiar8.Name = "btnLimpiar8";
+            btnLimpiar8.Size = new Size(123, 69);
+            btnLimpiar8.TabIndex = 52;
+            btnLimpiar8.UseVisualStyleBackColor = false;
+            btnLimpiar8.Click += btnLimpiar8_Click;
+            btnLimpiar8.MouseLeave += btnLimpiar8_MouseLeave;
+            btnLimpiar8.MouseHover += btnLimpiar8_MouseHover;
+            // 
+            // btnCalcular8
+            // 
+            btnCalcular8.BackColor = Color.FromArgb(75, 101, 84);
+            btnCalcular8.BackgroundImageLayout = ImageLayout.Center;
+            btnCalcular8.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnCalcular8.FlatAppearance.BorderSize = 0;
+            btnCalcular8.FlatStyle = FlatStyle.Flat;
+            btnCalcular8.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCalcular8.ForeColor = SystemColors.Control;
+            btnCalcular8.Image = Properties.Resources.tizas;
+            btnCalcular8.Location = new Point(576, 544);
+            btnCalcular8.Margin = new Padding(0);
+            btnCalcular8.MaximumSize = new Size(79, 36);
+            btnCalcular8.MinimumSize = new Size(79, 36);
+            btnCalcular8.Name = "btnCalcular8";
+            btnCalcular8.Size = new Size(79, 36);
+            btnCalcular8.TabIndex = 51;
+            btnCalcular8.UseVisualStyleBackColor = false;
+            btnCalcular8.Click += btnCalcular8_Click;
+            btnCalcular8.MouseLeave += btnCalcular8_MouseLeave;
+            btnCalcular8.MouseHover += btnCalcular8_MouseHover;
+            // 
             // tabPage9
             // 
-            tabPage9.BackgroundImage = (Image)resources.GetObject("tabPage9.BackgroundImage");
+            tabPage9.BackgroundImage = Properties.Resources.creditos;
             tabPage9.BackgroundImageLayout = ImageLayout.Stretch;
             tabPage9.Controls.Add(home9);
             tabPage9.Location = new Point(16, 4);
@@ -736,6 +1194,14 @@
             // 
             // tabPage10
             // 
+            tabPage10.BackgroundImage = Properties.Resources.pan5;
+            tabPage10.BackgroundImageLayout = ImageLayout.Stretch;
+            tabPage10.Controls.Add(btnLimpiar6);
+            tabPage10.Controls.Add(btnCalcular6);
+            tabPage10.Controls.Add(txtMcm);
+            tabPage10.Controls.Add(txtNumero2);
+            tabPage10.Controls.Add(panel1);
+            tabPage10.Controls.Add(txtNumero1);
             tabPage10.Location = new Point(16, 4);
             tabPage10.Margin = new Padding(0);
             tabPage10.Name = "tabPage10";
@@ -743,6 +1209,95 @@
             tabPage10.TabIndex = 9;
             tabPage10.Text = "tabPage10";
             tabPage10.UseVisualStyleBackColor = true;
+            // 
+            // btnLimpiar6
+            // 
+            btnLimpiar6.BackColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar6.BackgroundImageLayout = ImageLayout.Center;
+            btnLimpiar6.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnLimpiar6.FlatAppearance.BorderSize = 0;
+            btnLimpiar6.FlatStyle = FlatStyle.Flat;
+            btnLimpiar6.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnLimpiar6.ForeColor = SystemColors.Control;
+            btnLimpiar6.Image = Properties.Resources.borrador;
+            btnLimpiar6.Location = new Point(673, 508);
+            btnLimpiar6.Margin = new Padding(0);
+            btnLimpiar6.MaximumSize = new Size(123, 69);
+            btnLimpiar6.MinimumSize = new Size(123, 69);
+            btnLimpiar6.Name = "btnLimpiar6";
+            btnLimpiar6.Size = new Size(123, 69);
+            btnLimpiar6.TabIndex = 63;
+            btnLimpiar6.UseVisualStyleBackColor = false;
+            btnLimpiar6.Click += btnLimpiar6_Click;
+            btnLimpiar6.MouseLeave += btnLimpiar6_MouseLeave;
+            btnLimpiar6.MouseHover += btnLimpiar6_MouseHover;
+            // 
+            // btnCalcular6
+            // 
+            btnCalcular6.BackColor = Color.FromArgb(75, 101, 84);
+            btnCalcular6.BackgroundImageLayout = ImageLayout.Center;
+            btnCalcular6.FlatAppearance.BorderColor = Color.FromArgb(75, 101, 84);
+            btnCalcular6.FlatAppearance.BorderSize = 0;
+            btnCalcular6.FlatStyle = FlatStyle.Flat;
+            btnCalcular6.Font = new Font("KG Ten Thousand Reasons", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCalcular6.ForeColor = SystemColors.Control;
+            btnCalcular6.Image = Properties.Resources.tizas;
+            btnCalcular6.Location = new Point(576, 544);
+            btnCalcular6.Margin = new Padding(0);
+            btnCalcular6.MaximumSize = new Size(79, 36);
+            btnCalcular6.MinimumSize = new Size(79, 36);
+            btnCalcular6.Name = "btnCalcular6";
+            btnCalcular6.Size = new Size(79, 36);
+            btnCalcular6.TabIndex = 62;
+            btnCalcular6.UseVisualStyleBackColor = false;
+            btnCalcular6.Click += btnCalcular6_Click;
+            btnCalcular6.MouseLeave += btnCalcular6_MouseLeave;
+            btnCalcular6.MouseHover += btnCalcular6_MouseHover;
+            // 
+            // txtMcm
+            // 
+            txtMcm.BackColor = Color.FromArgb(75, 101, 84);
+            txtMcm.BorderStyle = BorderStyle.None;
+            txtMcm.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            txtMcm.ForeColor = Color.LightCyan;
+            txtMcm.Location = new Point(322, 418);
+            txtMcm.Name = "txtMcm";
+            txtMcm.Size = new Size(138, 51);
+            txtMcm.TabIndex = 61;
+            // 
+            // txtNumero2
+            // 
+            txtNumero2.BackColor = Color.FromArgb(75, 101, 84);
+            txtNumero2.BorderStyle = BorderStyle.None;
+            txtNumero2.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
+            txtNumero2.ForeColor = Color.LightCyan;
+            txtNumero2.Location = new Point(305, 262);
+            txtNumero2.Name = "txtNumero2";
+            txtNumero2.Size = new Size(175, 56);
+            txtNumero2.TabIndex = 60;
+            // 
+            // panel1
+            // 
+            panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
+            panel1.BackgroundImageLayout = ImageLayout.Stretch;
+            panel1.Location = new Point(883, 13);
+            panel1.MaximumSize = new Size(32, 32);
+            panel1.MinimumSize = new Size(32, 32);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(32, 32);
+            panel1.TabIndex = 59;
+            panel1.Click += panel1_Click;
+            // 
+            // txtNumero1
+            // 
+            txtNumero1.BackColor = Color.FromArgb(75, 101, 84);
+            txtNumero1.BorderStyle = BorderStyle.None;
+            txtNumero1.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
+            txtNumero1.ForeColor = Color.LightCyan;
+            txtNumero1.Location = new Point(305, 190);
+            txtNumero1.Name = "txtNumero1";
+            txtNumero1.Size = new Size(175, 56);
+            txtNumero1.TabIndex = 58;
             // 
             // button1
             // 
@@ -926,6 +1481,30 @@
             btnpato.MouseLeave += pictureBox1_MouseLeave;
             btnpato.MouseHover += pictureBox1_MouseHover;
             // 
+            // txtAnguC
+            // 
+            txtAnguC.BackColor = Color.FromArgb(75, 101, 84);
+            txtAnguC.BorderStyle = BorderStyle.None;
+            txtAnguC.Font = new Font("KG Ten Thousand Reasons", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            txtAnguC.ForeColor = Color.LightCyan;
+            txtAnguC.Location = new Point(338, 458);
+            txtAnguC.Name = "txtAnguC";
+            txtAnguC.Size = new Size(180, 51);
+            txtAnguC.TabIndex = 31;
+            txtAnguC.KeyPress += txtX2_KeyPress;
+            // 
+            // txtLadoC
+            // 
+            txtLadoC.BackColor = Color.FromArgb(75, 101, 84);
+            txtLadoC.BorderStyle = BorderStyle.None;
+            txtLadoC.Font = new Font("KG Ten Thousand Reasons", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
+            txtLadoC.ForeColor = Color.LightCyan;
+            txtLadoC.Location = new Point(212, 272);
+            txtLadoC.Name = "txtLadoC";
+            txtLadoC.Size = new Size(177, 56);
+            txtLadoC.TabIndex = 32;
+            txtLadoC.KeyPress += txtB_KeyPress;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -950,11 +1529,20 @@
             tabPage2.ResumeLayout(false);
             tabPage2.PerformLayout();
             tabPage3.ResumeLayout(false);
+            tabPage3.PerformLayout();
             tabPage4.ResumeLayout(false);
             tabPage4.PerformLayout();
+            tabPage5.ResumeLayout(false);
+            tabPage5.PerformLayout();
             tabPage6.ResumeLayout(false);
             tabPage6.PerformLayout();
+            tabPage7.ResumeLayout(false);
+            tabPage7.PerformLayout();
+            tabPage8.ResumeLayout(false);
+            tabPage8.PerformLayout();
             tabPage9.ResumeLayout(false);
+            tabPage10.ResumeLayout(false);
+            tabPage10.PerformLayout();
             panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)btnpato).EndInit();
             ResumeLayout(false);
@@ -1015,6 +1603,41 @@
         private TextBox txtboxAbogado;
         private Button btnCalcular5;
         private Button btnLimpiar5;
-        private Panel home6;
+        private Panel home5;
+        private Button btnLimpiar4;
+        private Button btnCalcular4;
+        private Panel btnHome4;
+        private TextBox txtDinero;
+        private TextBox txtDin1;
+        private TextBox txtDin2;
+        private TextBox txtDin3;
+        private TextBox txtDin4;
+        private TextBox txtDin5;
+        private TextBox txtDin6;
+        private Panel home7;
+        private Button btnLimpiar7;
+        private Button btnCalcular7;
+        private TextBox txtDiasT;
+        private TextBox txtMesA;
+        private TextBox txtMayor;
+        private TextBox txtMenor;
+        private Button btnLimpiar8;
+        private Button btnCalcular8;
+        private TextBox txtMedio;
+        private Panel home8;
+        private TextBox txtNum1;
+        private TextBox txtNum3;
+        private TextBox txtNum2;
+        private Panel panel1;
+        private TextBox txtNumero1;
+        private TextBox txtNumero2;
+        private TextBox txtMcm;
+        private Button btnLimpiar6;
+        private Button btnCalcular6;
+        private TextBox txtAnguB;
+        private TextBox txtLadoB;
+        private TextBox txtLadoA;
+        private TextBox txtLadoC;
+        private TextBox txtAnguC;
     }
 }

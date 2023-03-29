@@ -52,3 +52,23 @@ C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0  Bueno\Matemáticas v7.0\ob
 C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0  Bueno\Matemáticas v7.0\obj\Release\net6.0-windows\Matemáticas v7.0.pdb
 C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0  Bueno\Matemáticas v7.0\obj\Release\net6.0-windows\Matemáticas v7.0.genruntimeconfig.cache
 C:\Users\inuxb\OneDrive\Escritorio\Matemáticas v7.0  Bueno\Matemáticas v7.0\obj\Release\net6.0-windows\ref\Matemáticas v7.0.dll
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\bin\Release\net6.0-windows\Matemáticas v7.0.exe
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\bin\Release\net6.0-windows\Matemáticas v7.0.deps.json
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\bin\Release\net6.0-windows\Matemáticas v7.0.runtimeconfig.json
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\bin\Release\net6.0-windows\Matemáticas v7.0.dll
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\bin\Release\net6.0-windows\Matemáticas v7.0.pdb
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\obj\Release\net6.0-windows\Matemáticas v7.0.csproj.AssemblyReference.cache
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\obj\Release\net6.0-windows\Interop.WMPLib.dll
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\obj\Release\net6.0-windows\Matemáticas v7.0.csproj.ResolveComReference.cache
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\obj\Release\net6.0-windows\Matemáticas_v7._0.Form1.resources
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\obj\Release\net6.0-windows\Matemáticas_v7._0.Properties.Resources.resources
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\obj\Release\net6.0-windows\Matemáticas v7.0.csproj.GenerateResource.cache
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\obj\Release\net6.0-windows\Matemáticas v7.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\obj\Release\net6.0-windows\Matemáticas v7.0.AssemblyInfoInputs.cache
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\obj\Release\net6.0-windows\Matemáticas v7.0.AssemblyInfo.cs
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\obj\Release\net6.0-windows\Matemáticas v7.0.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\obj\Release\net6.0-windows\Matemáticas v7.0.dll
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\obj\Release\net6.0-windows\refint\Matemáticas v7.0.dll
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\obj\Release\net6.0-windows\Matemáticas v7.0.pdb
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\obj\Release\net6.0-windows\Matemáticas v7.0.genruntimeconfig.cache
+C:\xampp\htdocs\Matematicas-v7.0\Matemáticas v7.0\obj\Release\net6.0-windows\ref\Matemáticas v7.0.dll
